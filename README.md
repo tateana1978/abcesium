@@ -4,4 +4,4 @@
 
 下記リンクよりアクセスください。
 </br>
-[油山山麓古墳群及周辺遺跡３Ｄ分布図](https://tateana1978.github.io/abcesium/Apps/HelloWorld.html)
+[油山山麓古墳群及周辺遺跡　ＣＥＳＩＵＭ３Ｄ分布図](https://tateana1978.github.io/abcesium/Apps/HelloWorld.html)
