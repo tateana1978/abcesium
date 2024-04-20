@@ -28,31 +28,7 @@
   <body>
     <div id="cesiumContainer"></div>
     <script>
-      const viewer = new Cesium.Viewer("cesiumContainer",{
-		  baseLayerPicker: true,
-		  timeline : false,
-		  animation : false,
-		  homeButton: false,
-		  vrButton: true,
-		  geocoder:false,
-		  sceneModePicker:false,
-		  navigationHelpButton:false
-      });
-      
-      var point = viewer.entities.add({
-      name:"福岡市城南区七隈", //レイヤ名
-      description:"ここは福岡市城南区七隈です。",　//レイヤの説明
-        position : Cesium.Cartesian3.fromDegrees(130.360489,33.529425,900.0), //経度,緯度,高さ
-        point : {
-            pixelSize : 10, //ポイントのサイズ
-            color : Cesium.Color.BLUE //ポイントの色
-        }
-    });
-
-	viewer.dataSources.add(Cesium.KmlDataSource.load("./KML/aburayama.kmz"));
-
-    viewer.zoomTo(viewer.entities);　//レイヤにズーム
-      
+      const viewer = new Cesium.Viewer("cesiumContainer");
     </script>
   </body>
 </html>
