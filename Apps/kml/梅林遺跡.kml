@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>梅林遺跡</name>
+	<gx:CascadingStyle kml:id="__managed_style_2C8471DBCF2CC7D30EDD">
+		<Style>
+			<IconStyle>
+				<scale>0.9</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2185&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>6.4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_126EBBEF9C2CC7D30EDD">
+		<Style>
+			<IconStyle>
+				<scale>0.75</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2185&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4.26667</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_01BEE89CD42CC7D30EDD">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_126EBBEF9C2CC7D30EDD</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_2C8471DBCF2CC7D30EDD</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_2AEBF64F452CC7D30EDC">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.26.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff000000</color>
+				<width>4.4992</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>470000ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_1160F61C122CC7D30EDC">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.26.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff000000</color>
+				<width>2.99947</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>470000ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_08F15BD64A2CC7D30EDC">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1160F61C122CC7D30EDC</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_2AEBF64F452CC7D30EDC</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="08864783BE2CAF8004DE">
+		<name>梅林遺跡</name>
+		<description><![CDATA[<div><span style="color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline;"><span class="font" style="font-family: Roboto, &quot;Noto Sans&quot;, sans-serif;"><span class="size" style="font-size: medium;"><b>遺跡：集落、水田、散布地</b></span></span></span><b></b><b><br></b></div><div><span style="color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline;"><span class="font" style="font-family: Roboto, &quot;Noto Sans&quot;, sans-serif;"><span class="size" style="font-size: medium;"><b>時代：縄文/古墳/古代(細分不明)/鎌倉/南北朝/室町</b></span></span></span><b></b><b></b><b><br></b></div><div><span style="color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline;"><span class="font" style="font-family: Roboto, &quot;Noto Sans&quot;, sans-serif;"><span class="size" style="font-size: medium;"><b>1997年より7次にわたり発掘調査されている。</b></span></span></span><b></b><b></b><b><br></b></div><div><b>１次調査では古墳時代の大規模な掘立柱建物群が検出されたほか、平安時代の水田跡
+が検出されている。２次調査では縄文時代の落とし穴・古墳時代の竪穴住居跡・古墳から中世の掘立柱建物跡・古墳から近世にかけての溝などが検出され、第３次調査では、近世から古墳時代にかけての溝・畦畔跡・水田跡、中世後半の里道跡・古墳から戦国期の土壙などが検出されている。４次調査では古墳時代の竪穴住居3棟、古墳から奈良時代の掘立柱建物３棟、古墳から奈良時代の柵跡1条、溝1条が検出された。5次調査では古墳時代の池上遺構、古墳から江戸時代の水田跡などが検出されている。6次調査では古墳時代の竪穴住居3棟などが検出され、7次調査では近世の水田跡等を検出した。</b><b></b><b><br></b></div><div><span style="color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline;"><span class="font" style="font-family: Roboto, &quot;Noto Sans&quot;, sans-serif;"><span class="size" style="font-size: medium;"><b>詳細は以下のリンクの調査報告書を参照</b></span></span></span><a href="https://sitereports.nabunken.go.jp/ja/search?all=%E6%A2%85%E6%9E%97%E9%81%BA%E8%B7%A1"><b>https://sitereports.nabunken.go.jp/ja/search?all=%E6%A2%85%E6%9E%97%E9%81%BA%E8%B7%A1</b></a><br></div>]]></description>
+		<styleUrl>#__managed_style_08F15BD64A2CC7D30EDC</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						130.356667,33.546018,0 130.356356,33.54625,0 130.355455,33.546501,0 130.354918,33.54625,0 130.354156,33.545955,0 130.353802,33.545776,0 130.353674,33.545696,0 130.353599,33.545168,0 130.353556,33.544194,0 130.353781,33.543773,0 130.354307,33.543523,0 130.355251,33.543344,0 130.355691,33.543809,0 130.355583,33.544203,0 130.355895,33.544399,0 130.355911,33.544633,0 130.35605,33.544722,0 130.356243,33.544838,0 130.356318,33.544758,0 130.356479,33.544762,0 130.356662,33.544852,0 130.356844,33.545035,0 130.356876,33.545098,0 130.356941,33.545245,0 130.35693,33.545741,0 130.35679,33.545867,0 130.356667,33.546018,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark id="0B28BEA3612CAF7F5523">
+		<name>梅林遺跡</name>
+		<LookAt>
+			<longitude>130.3571676970128</longitude>
+			<latitude>33.54552462603144</latitude>
+			<altitude>23.64622842387061</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>30</gx:fovy>
+			<range>2075.923937153129</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_01BEE89CD42CC7D30EDD</styleUrl>
+		<Point>
+			<coordinates>130.3551448968869,33.54504090047871,24.39293676928625</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

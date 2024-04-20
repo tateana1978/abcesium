@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>野芥・野芥大藪・飯倉H・クエゾノ遺跡群</name>
+	<gx:CascadingStyle kml:id="__managed_style_2A9839D1802CC7D3124E">
+		<Style>
+			<IconStyle>
+				<scale>0.9</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2185&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>6.4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_080F11C31B2CC7D3124E">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_19004BCC8F2CC7D3124E</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_2A9839D1802CC7D3124E</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_24554D65922CC7D3124D">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.26.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff000000</color>
+				<width>4.4992</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4c0000ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_183B7E0F0A2CC7D3124D">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.26.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff000000</color>
+				<width>2.99947</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4c0000ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0DA69EE5C62CC7D3124D">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_183B7E0F0A2CC7D3124D</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_24554D65922CC7D3124D</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_2A9BD6BA632CC7D3124C">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.26.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff000000</color>
+				<width>4.4992</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4f0000ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_19004BCC8F2CC7D3124E">
+		<Style>
+			<IconStyle>
+				<scale>0.75</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2185&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4.26667</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0B4422D1C52CC7D3124C">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_18DA36BEBE2CC7D3124C</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_2A9BD6BA632CC7D3124C</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_23A2677CE92CC7D3124B">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.26.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff000000</color>
+				<width>4.4992</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>490000ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_18DA36BEBE2CC7D3124C">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.26.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff000000</color>
+				<width>2.99947</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4f0000ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_1CFF0485DB2CC7D3124B">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.26.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff000000</color>
+				<width>2.99947</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>490000ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_09B3AEB59C2CC7D3124B">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1CFF0485DB2CC7D3124B</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_23A2677CE92CC7D3124B</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="0CC287CBAA2CA4FC7D95">
+		<name>野芥遺跡群</name>
+		<description><![CDATA[<div><span style="color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline;"><span class="font" style="font-family: Roboto, &quot;Noto Sans&quot;, sans-serif;"><span class="size" style="font-size: medium;"><b>時代・遺跡種別：散布地/集落/その他</b></span></span></span><b></b><b><br></b></div><div><span style="color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline;"><span class="font" style="font-family: Roboto, &quot;Noto Sans&quot;, sans-serif;"><span class="size" style="font-size: medium;"><b>主な時代：縄文/弥生/古墳/古代（細分不明）/中世（細分不明）</b></span></span></span><b><br></b></div><div><span style="color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline;"><span class="font" style="font-family: Roboto, &quot;Noto Sans&quot;, sans-serif;"><span class="size" style="font-size: medium;"><b>2023年現在、23次にわたり発掘調査され、旧石器時代から近世におよぶ複合遺跡である。</b></span></span></span><b><br></b></div><div><a href="https://sitereports.nabunken.go.jp/ja/search?all=%E9%87%8E%E8%8A%A5%E9%81%BA%E8%B7%A1%E7%BE%A4"><b>https://sitereports.nabunken.go.jp/ja/search?all=%E9%87%8E%E8%8A%A5%E9%81%BA%E8%B7%A1%E7%BE%A4</b></a><span style="color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline;"><span class="font" style="font-family: Roboto, &quot;Noto Sans&quot;, sans-serif;"><span class="size" style="font-size: medium;"><b>詳細は以下リンクの調査報告書を参照。</b></span></span></span></div><div><span style="color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline;"><span class="font" style="font-family: Roboto, &quot;Noto Sans&quot;, sans-serif;"><span class="size" style="font-size: medium;"><b></b></span></span></span><br></div>]]></description>
+		<styleUrl>#__managed_style_09B3AEB59C2CC7D3124B</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						130.346496,33.550873,0 130.345908,33.550261,0 130.34596,33.549907,0 130.346088,33.549693,0 130.346024,33.549299,0 130.34626,33.54896,0 130.345681,33.547779,0 130.346003,33.545741,0 130.346282,33.544006,0 130.346174,33.541752,0 130.346346,33.541198,0 130.346475,33.539624,0 130.346088,33.538104,0 130.347033,33.537031,0 130.348706,33.536423,0 130.349114,33.536691,0 130.348835,33.537388,0 130.348728,33.537943,0 130.348642,33.538104,0 130.349157,33.53873,0 130.349264,33.539052,0 130.349256,33.539803,0 130.348792,33.540751,0 130.348556,33.542253,0 130.347509,33.543838,0 130.348131,33.545251,0 130.349161,33.546914,0 130.349075,33.54754,0 130.348711,33.549793,0 130.34856,33.550204,0 130.348475,33.550848,0 130.347552,33.551098,0 130.347166,33.551152,0 130.346844,33.551027,0 130.346496,33.550873,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark id="080948EC992CA4FDCD1F">
+		<name>野芥大藪遺跡</name>
+		<description><![CDATA[<div><span style="color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline;"><span class="font" style="font-family: Roboto, &quot;Noto Sans&quot;, sans-serif;"><span class="size" style="font-size: medium;"><b>時代・遺跡種別：集落/その他</b></span></span></span><b></b><b><br></b></div><div><span style="color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline;"><span class="font" style="font-family: Roboto, &quot;Noto Sans&quot;, sans-serif;"><span class="size" style="font-size: medium;"><b>主な時代：縄文/古墳/平安/中世（細分不明）/近世（細分不明）/不明</b></span></span></span><b><br></b></div><div><span style="color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline;"><span class="font" style="font-family: Roboto, &quot;Noto Sans&quot;, sans-serif;"><span class="size" style="font-size: medium;"><b>1994年に発掘調査された。</b></span></span></span><b>縄文時代の川跡、古墳時代の土坑群、古代の水路跡１条と堰、中世の溝、江戸時代の溝、
+土坑群、井戸、建物などが検出された。</b><b><br></b></div><div><b>詳細は以下リンクを参照。</b><b><br></b></div><div><a href="https://sitereports.nabunken.go.jp/ja/search/item/20604?all=%E9%87%8E%E8%8A%A5%E5%A4%A7%E8%97%AA%E9%81%BA%E8%B7%A1"><b>https://sitereports.nabunken.go.jp/ja/search/item/20604?all=%E9%87%8E%E8%8A%A5%E5%A4%A7%E8%97%AA%E9%81%BA%E8%B7%A1</b></a><br></div>]]></description>
+		<styleUrl>#__managed_style_0B4422D1C52CC7D3124C</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						130.345058,33.550247,0 130.344715,33.55048,0 130.34405,33.550533,0 130.343299,33.550337,0 130.34302,33.549442,0 130.342934,33.549067,0 130.34317,33.548298,0 130.342934,33.547833,0 130.343106,33.547529,0 130.344179,33.546259,0 130.344415,33.546223,0 130.345166,33.546563,0 130.345552,33.547743,0 130.345509,33.54853,0 130.345659,33.548834,0 130.345058,33.550247,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark id="034F52A0232CA4FD465C">
+		<name>飯倉H遺跡</name>
+		<description><![CDATA[<div><span style="color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline;"><span class="font" style="font-family: Roboto, &quot;Noto Sans&quot;, sans-serif;"><span class="size" style="font-size: medium;"><b>主な時代：弥生/古墳</b></span></span></span><b></b><b><br></b></div><div><span style="color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline;"><span class="font" style="font-family: Roboto, &quot;Noto Sans&quot;, sans-serif;"><span class="size" style="font-size: medium;"><b>遺構概要：弥生中期-甕棺墓/古墳-集落</b></span></span></span><b><br></b></div><div><span style="color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline;"><span class="font" style="font-family: Roboto, &quot;Noto Sans&quot;, sans-serif;"><span class="size" style="font-size: medium;"><b>1989年に発掘調査され、A区では</b></span></span></span><b>弥生時代中期の甕棺墓3基、古墳時代後期の竪穴住居跡1基、柱穴多数
+を検出した。B区では土坑2基を検出した。時期は不明である。C区では竪穴系横口式石室を埋葬施設にもつ前方後円墳１基を調査した。（梅林古墳）</b><b><br></b></div><div><b>詳細は以下リンクの梅林古墳を参照。</b><b><br></b></div><div><a href="https://sitereports.nabunken.go.jp/ja/search/item/17267?all=%E9%A3%AF%E5%80%89H%E9%81%BA%E8%B7%A1"><b>https://sitereports.nabunken.go.jp/ja/search/item/17267?all=%E9%A3%AF%E5%80%89H%E9%81%BA%E8%B7%A1</b></a><br></div>]]></description>
+		<styleUrl>#__managed_style_0DA69EE5C62CC7D3124D</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						130.350101,33.546753,0 130.350144,33.546592,0 130.349586,33.546109,0 130.35008,33.545018,0 130.350466,33.544875,0 130.350552,33.54466,0 130.350251,33.544052,0 130.350916,33.543301,0 130.351367,33.543176,0 130.35126,33.543766,0 130.35156,33.543963,0 130.351925,33.545233,0 130.351951,33.545982,0 130.350582,33.545975,0 130.350591,33.546493,0 130.351315,33.546515,0 130.351067,33.547808,0 130.350337,33.54779,0 130.350101,33.546753,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark id="097A089E6B2CA4D6D228">
+		<name>クエゾノ遺跡群</name>
+		<description><![CDATA[<div><span style="color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline;"><span class="font" style="font-family: Roboto, &quot;Noto Sans&quot;, sans-serif;"><span class="size" style="font-size: medium;"><b>時代・遺跡種別：集落/古墳/製鉄/その他主な時代：縄文/弥生/古墳/古代（細分不明）/近世（細分不明）</b></span></span></span><b><br></b></div><div><span style="color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline;"><span class="font" style="font-family: Roboto, &quot;Noto Sans&quot;, sans-serif;"><span class="size" style="font-size: medium;"><b>1992年から5度に渡って発掘調査されている。１次調査では前方後円墳を含む５基の古墳が、２次調査では</b></span></span></span><b>古墳時代後期～飛烏時代の竪穴住居や、古代の溝と掘
+立柱建物が発見されている。３次調査では中近世の溝が発見され、4次調査では弥生時代中期～後期
+の掘立柱建物が多く発見されている。5次調査では主に弥生時代中期の竪穴住居址 1軒、溝 1条、古墳時代中期の石室、製鉄
+炉廃棄士拡 l基竪穴住居址 2軒、溝 2条、古墳時代初頭の壺棺 1基、古代の焼士坑 3基が検出されている。</b><b><br></b></div><div><b>詳細は以下のリンクの調査報告書を参照。</b><b><br></b></div><div><a href="https://sitereports.nabunken.go.jp/ja/search?all=%E3%82%AF%E3%82%A8%E3%82%BE%E3%83%8E%E9%81%BA%E8%B7%A1"><b>https://sitereports.nabunken.go.jp/ja/search?all=%E3%82%AF%E3%82%A8%E3%82%BE%E3%83%8E%E9%81%BA%E8%B7%A1</b></a><br></div>]]></description>
+		<styleUrl>#__managed_style_09B3AEB59C2CC7D3124B</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						130.348835,33.5449,0 130.348577,33.544685,0 130.348513,33.543648,0 130.348492,33.542736,0 130.349286,33.541198,0 130.349715,33.540983,0 130.350187,33.540357,0 130.35068,33.539606,0 130.351667,33.539052,0 130.352397,33.538336,0 130.352805,33.537746,0 130.352783,33.537299,0 130.353556,33.537764,0 130.353835,33.538247,0 130.35391,33.539336,0 130.3538367746296,33.54003721051956,0 130.352318644982,33.54001127750263,0 130.3523079158186,33.54095291602654,0 130.353693,33.541001,0 130.351861,33.541949,0 130.350165,33.543326,0 130.350058,33.54397,0 130.34965,33.544614,0 130.349221,33.544757,0 130.348835,33.5449,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark id="0345C1CEEF2CA4D4B496">
+		<name>野芥遺跡群</name>
+		<LookAt>
+			<longitude>130.3522185914326</longitude>
+			<latitude>33.54663117507585</latitude>
+			<altitude>26.45004070753098</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>30</gx:fovy>
+			<range>3504.168587697787</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_080F11C31B2CC7D3124E</styleUrl>
+		<Point>
+			<coordinates>130.3473521719343,33.54607739810206,20.04756952892557</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="03770F93692CA4D52DDE">
+		<name>野芥大藪遺跡群</name>
+		<LookAt>
+			<longitude>130.3522185914326</longitude>
+			<latitude>33.54663117507585</latitude>
+			<altitude>26.45004070753098</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>30</gx:fovy>
+			<range>3504.168587697787</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_080F11C31B2CC7D3124E</styleUrl>
+		<Point>
+			<coordinates>130.3441930618492,33.5480539335605,15.31835014151702</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0B52FE1D9E2CA4D5EAE8">
+		<name>飯倉H遺跡</name>
+		<LookAt>
+			<longitude>130.351645746948</longitude>
+			<latitude>33.54353732552222</latitude>
+			<altitude>29.58421817291828</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>30</gx:fovy>
+			<range>3501.034234581166</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_080F11C31B2CC7D3124E</styleUrl>
+		<Point>
+			<coordinates>130.3509922404407,33.54454605887979,26.94080887917061</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="058E9DBE642CA4D66175">
+		<name>クエゾノ遺跡</name>
+		<LookAt>
+			<longitude>130.3522889360152</longitude>
+			<latitude>33.5426375536656</latitude>
+			<altitude>30.8555090380409</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>30</gx:fovy>
+			<range>3499.762989611481</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_080F11C31B2CC7D3124E</styleUrl>
+		<Point>
+			<coordinates>130.3504359203413,33.54139842181367,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

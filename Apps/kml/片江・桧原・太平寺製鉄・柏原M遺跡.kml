@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>片江・桧原・太平寺製鉄・柏原M遺跡</name>
+	<gx:CascadingStyle kml:id="__managed_style_284D37753C2CA9ACC152">
+		<Style>
+			<IconStyle>
+				<scale>0.9</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2185&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>6.4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0CF42E4F2C2CA9ACC152">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_15558A0C332CA9ACC152</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_284D37753C2CA9ACC152</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_2210A1162F2CA9A101ED">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.26.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff000000</color>
+				<width>4.4992</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>490000ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_1CF7E326872CA9A101ED">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.26.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff000000</color>
+				<width>2.99947</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>490000ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_04F3A63A3C2CA9AD5A8C">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.26.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff000000</color>
+				<width>4.4992</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4f0000ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0D1227DD382CA9A101ED">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1CF7E326872CA9A101ED</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_2210A1162F2CA9A101ED</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_10EC0B45B02CA9AD5A8B">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.26.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff000000</color>
+				<width>2.99947</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4f0000ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_15558A0C332CA9ACC152">
+		<Style>
+			<IconStyle>
+				<scale>0.75</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2185&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4.26667</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_047BD7FC4F2CA9AD5A8B">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_10EC0B45B02CA9AD5A8B</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_04F3A63A3C2CA9AD5A8C</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="059F4B4F3C2CA9AD202D">
+		<name>片江A遺跡群</name>
+		<description><![CDATA[<div><span style="color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline;"><span class="font" style="font-family:Roboto, &quot;Noto Sans&quot;, sans-serif"><span class="size" style="font-size:medium"><b>時代・遺跡種別：集落</b></span></span></span><b><br></b></div><div><span style="color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline;"><span class="font" style="font-family:Roboto, &quot;Noto Sans&quot;, sans-serif"><span class="size" style="font-size:medium"><b>主な時代：不明</b></span></span></span><br></div>]]></description>
+		<styleUrl>#__managed_style_047BD7FC4F2CA9AD5A8B</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						130.37391,33.55102,0 130.373868,33.550501,0 130.373331,33.55,0 130.37331,33.549643,0 130.373803,33.549249,0 130.373782,33.54857,0 130.374125,33.547962,0 130.374425,33.54823,0 130.37449,33.548927,0 130.374382,33.549428,0 130.37464,33.549875,0 130.375327,33.550412,0 130.37567,33.550698,0 130.375734,33.551002,0 130.375691,33.551288,0 130.375412,33.551485,0 130.374597,33.551288,0 130.374125,33.55127,0 130.37391,33.55102,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark id="0E8E2578EF2CA9ADB201">
+		<name>片江B遺跡群</name>
+		<description><![CDATA[<div><span style="color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline;"><span class="font" style="font-family:Roboto, &quot;Noto Sans&quot;, sans-serif"><span class="size" style="font-size:medium"><b>時代・遺跡種別：集落</b></span></span></span><b><br></b></div><div><span style="color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline;"><span class="font" style="font-family:Roboto, &quot;Noto Sans&quot;, sans-serif"><span class="size" style="font-size:medium"><b>主な時代：古墳</b></span></span></span><b><br></b></div><div><span style="color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline;"><span class="font" style="font-family:Roboto, &quot;Noto Sans&quot;, sans-serif"><span class="size" style="font-size:medium"><b>遺構概要：古墳時代後期-集落</b></span></span></span><b><br></b></div><div><span style="color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline;"><span class="font" style="font-family:Roboto, &quot;Noto Sans&quot;, sans-serif"><span class="size" style="font-size:medium"><b>詳細は以下の調査報告書を参照</b></span></span></span><b><br></b></div><div><a href="https://sites.google.com/view/fukuoka-uni-tateanagroup/%E6%B2%B9%E5%B1%B1%E5%91%A8%E8%BE%BA%E7%99%BA%E6%8E%98%E5%A0%B1%E5%91%8A%E6%9B%B8#h.rjsm82glc64q"><span style="color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline;"><span class="font" style="font-family: Roboto, &quot;Noto Sans&quot;, sans-serif;"><span class="size" style="font-size: medium;"><b>片江辻遺跡1・2、片江B遺跡</b></span></span></span></a><b><br></b></div><div><a href="https://sites.google.com/view/fukuoka-uni-tateanagroup/%E6%B2%B9%E5%B1%B1%E5%91%A8%E8%BE%BA%E7%99%BA%E6%8E%98%E5%A0%B1%E5%91%8A%E6%9B%B8#h.rjsm82glc64q"><b>https://sites.google.com/view/fukuoka-uni-tateanagroup/%E6%B2%B9%E5%B1%B1%E5%91%A8%E8%BE%BA%E7%99%BA%E6%8E%98%E5%A0%B1%E5%91%8A%E6%9B%B8#h.rjsm82glc64q</b></a><br></div>]]></description>
+		<styleUrl>#__managed_style_047BD7FC4F2CA9AD5A8B</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						130.377846,33.553001,0 130.377481,33.552947,0 130.376494,33.55166,0 130.376644,33.550068,0 130.376344,33.549496,0 130.376236,33.548423,0 130.376344,33.547529,0 130.376837,33.54769,0 130.377009,33.548298,0 130.377438,33.54921,0 130.377803,33.549854,0 130.378661,33.551088,0 130.378554,33.551517,0 130.378125,33.552518,0 130.377846,33.553001,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark id="08AACB7C4B2CA9B41070">
+		<name>太平寺製鉄遺跡</name>
+		<description><![CDATA[<div><span style="color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline;"><span class="font" style="font-family:Roboto, &quot;Noto Sans&quot;, sans-serif"><span class="size" style="font-size:medium"><b>時代・遺跡種別：製鉄</b></span></span></span><b><br></b></div><div><span style="color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline;"><span class="font" style="font-family:Roboto, &quot;Noto Sans&quot;, sans-serif"><span class="size" style="font-size:medium"><b>主な時代：不明</b></span></span></span><br></div>]]></description>
+		<styleUrl>#__managed_style_0D1227DD382CA9A101ED</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						130.393137,33.532362,0 130.392922,33.532488,0 130.392622,33.532201,0 130.392579,33.531915,0 130.392922,33.532255,0 130.393137,33.532362,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark id="04D3328D852CA9B50E64">
+		<name>柏原M遺跡</name>
+		<description><![CDATA[<div><span style="color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline;"><span class="font" style="font-family:Roboto, &quot;Noto Sans&quot;, sans-serif"><span class="size" style="font-size:medium"><b>遺跡種別：集落　製鉄関連炉</b></span></span></span><b><br></b></div><div><span style="color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline;"><span class="font" style="font-family:Roboto, &quot;Noto Sans&quot;, sans-serif"><span class="size" style="font-size:medium"><b>主な時代：古墳/古代（細分不明）</b></span></span></span><b><br></b></div><div><span style="color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline;"><span class="font" style="font-family:Roboto, &quot;Noto Sans&quot;, sans-serif"><span class="size" style="font-size:medium"><b>1983年に発掘調査。34棟の掘立柱建物、4本の柵列、23基の土壙、20条の溝、８基の土器埋納遺構、24基の製鉄関連炉跡が確認されている。時代は古墳時代から10世紀前後とされている。詳細は以下リンクの柏原遺跡群Ⅵを参照。</b></span></span></span><a href="https://sites.google.com/view/fukuoka-uni-tateanagroup/%E6%B2%B9%E5%B1%B1%E5%91%A8%E8%BE%BA%E7%99%BA%E6%8E%98%E5%A0%B1%E5%91%8A%E6%9B%B8#h.y5tmy8djgx8x" target="_blank" style="color: rgb(0, 191, 165); font-family: Roboto, &quot;Noto Sans&quot;, sans-serif; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(255, 255, 255);"><b>https://sites.google.com/view/fukuoka-uni-tateanagroup/%E6%B2%B9%E5%B1%B1%E5%91%A8%E8%BE%BA%E7%99%BA%E6%8E%98%E5%A0%B1%E5%91%8A%E6%9B%B8#h.y5tmy8djgx8x</b></a><br></div>]]></description>
+		<styleUrl>#__managed_style_0D1227DD382CA9A101ED</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						130.393381,33.529322,0 130.39278,33.529125,0 130.393016,33.528839,0 130.393488,33.528857,0 130.394561,33.529125,0 130.394669,33.529465,0 130.394583,33.529697,0 130.39366,33.529518,0 130.393381,33.529322,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark id="087A7F59AA2CA9A0C8B8">
+		<name>桧原遺跡群</name>
+		<description><![CDATA[<div><b>主な遺跡：散布地、集落</b><b><br></b></div><div><b>時代：古墳</b></div><div><span style="color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline;"><span class="font" style="font-family: Roboto, &quot;Noto Sans&quot;, sans-serif;"><span class="size" style="font-size: medium;"><b>1992年から1993年に発掘調査されており、7棟の竪穴式住居、3棟の掘立柱建物が調査されている。</b></span></span></span><b><br></b></div><div><span style="color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline;"><span class="font" style="font-family: Roboto, &quot;Noto Sans&quot;, sans-serif;"><span class="size" style="font-size: medium;"><b>詳細は以下のリンク参照</b></span></span></span><b><br></b></div><div><a href="https://sites.google.com/view/fukuoka-uni-tateanagroup/%E6%B2%B9%E5%B1%B1%E5%91%A8%E8%BE%BA%E7%99%BA%E6%8E%98%E5%A0%B1%E5%91%8A%E6%9B%B8#h.b0jt1yh3n7o4"><b>桧原遺跡</b></a><br></div><div><br></div>]]></description>
+		<styleUrl>#__managed_style_0D1227DD382CA9A101ED</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						130.39439,33.536745,0 130.393252,33.536905,0 130.391965,33.536709,0 130.3913190363528,33.53553544654843,0 130.3920636175099,33.53539235991401,0 130.3916344640675,33.53451236721799,0 130.3914799688937,33.53336764877922,0 130.3905937669697,33.53149135032071,0 130.3899843692125,33.53178111491117,0 130.3899157047272,33.53209055418857,0 130.3897891049201,33.53260568687541,0 130.3897655010224,33.53260747536222,0 130.3897461885936,33.53264503739783,0 130.389669,33.532094,0 130.388553,33.531468,0 130.387115,33.530144,0 130.3866,33.529161,0 130.387244,33.528928,0 130.387866,33.529268,0 130.389141,33.529118,0 130.389978,33.529744,0 130.391952,33.533625,0 130.391995,33.534394,0 130.393497,33.535342,0 130.394892,33.536058,0 130.394913,33.536344,0 130.394742,33.536648,0 130.39439,33.536745,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark id="053FF821B12CA9AC58D6">
+		<name>桧原遺跡群</name>
+		<LookAt>
+			<longitude>130.38969121154</longitude>
+			<latitude>33.53371200030045</latitude>
+			<altitude>26.12739002225659</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>30</gx:fovy>
+			<range>2241.016308605613</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0CF42E4F2C2CA9ACC152</styleUrl>
+		<Point>
+			<coordinates>130.3930900839662,33.53575435013315,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="09553F5F972CA9B31DC7">
+		<name>片江A遺跡群</name>
+		<LookAt>
+			<longitude>130.3716469888712</longitude>
+			<latitude>33.54642141886221</latitude>
+			<altitude>19.35851744757802</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>30</gx:fovy>
+			<range>4050.018853016663</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0CF42E4F2C2CA9ACC152</styleUrl>
+		<Point>
+			<coordinates>130.3747228065423,33.55086860412472,16.11262742402356</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0B153C850B2CA9B38F2F">
+		<name>片江B遺跡群</name>
+		<LookAt>
+			<longitude>130.3716469888712</longitude>
+			<latitude>33.54642141886221</latitude>
+			<altitude>19.35851744757802</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>30</gx:fovy>
+			<range>4050.018853016663</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0CF42E4F2C2CA9ACC152</styleUrl>
+		<Point>
+			<coordinates>130.3774806421512,33.55062559194374,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0BE2AD49F62CA9B4A11A">
+		<name>柏原M遺跡</name>
+		<LookAt>
+			<longitude>130.3829223742698</longitude>
+			<latitude>33.53261424011011</latitude>
+			<altitude>36.85667688695141</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>30</gx:fovy>
+			<range>4032.520692604012</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0CF42E4F2C2CA9ACC152</styleUrl>
+		<Point>
+			<coordinates>130.3942087181573,33.52923397904986,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0CAEDE1AFB2CA9B6A654">
+		<name>太平寺製鉄遺跡</name>
+		<LookAt>
+			<longitude>130.3829223742698</longitude>
+			<latitude>33.53261424011011</latitude>
+			<altitude>36.85667688695141</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>30</gx:fovy>
+			<range>4032.520692604012</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0CF42E4F2C2CA9ACC152</styleUrl>
+		<Point>
+			<coordinates>130.3931338573895,33.5322454041718,35.07400416115375</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

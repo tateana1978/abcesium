@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>柏原K遺跡</name>
+	<Style id="PolyStyle1">
+		<LineStyle>
+			<color>ff000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>470000ff</color>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>柏原K遺跡</name>
+		<styleUrl>#PolyStyle1</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						130.3903126716614,33.52692116844791,0 130.390237569809,33.52683172999237,0 130.3897547721863,33.5265186946695,0 130.3894758224488,33.5261967142981,0 130.3890573978424,33.52622354604152,0 130.38898229599,33.52608938724124,0 130.3890037536621,33.52598206005118,0 130.3891754150391,33.5258836766766,0 130.3894758224488,33.5258836766766,0 130.3899049758911,33.52572268545857,0 130.3901946544648,33.52586578877828,0 130.390591621399,33.52650080690255,0 130.3911924362183,33.52688539307681,0 130.3911495208741,33.52712687654465,0 130.3912246227265,33.52719842707228,0 130.3909027576447,33.52735047174692,0 130.3903126716614,33.52692116844791,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

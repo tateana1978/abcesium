@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>浄泉寺遺跡</name>
+	<gx:CascadingStyle kml:id="__managed_style_03C56A89582CB3658735">
+		<Style>
+			<IconStyle>
+				<scale>0.75</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2185&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4.26667</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_01AE46E4482CB3658734">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_03C56A89582CB3658735</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_1833067FA32CB3658735</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_2FF5E167112CB3658733">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.26.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff000000</color>
+				<width>4.4992</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4c0000ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_14375836DB2CB3658733">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.26.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff000000</color>
+				<width>2.99947</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4c0000ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_1833067FA32CB3658735">
+		<Style>
+			<IconStyle>
+				<scale>0.9</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2185&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>6.4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_03450AFD232CB3658733">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_14375836DB2CB3658733</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_2FF5E167112CB3658733</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="0E43D63B592CAE9E4C23">
+		<name>浄泉寺遺跡</name>
+		<description><![CDATA[<div><span style="color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline;"><span class="font" style="font-family: Roboto, &quot;Noto Sans&quot;, sans-serif;"><span class="size" style="font-size: medium;"><b>種別：集落</b></span></span></span><b></b><b><br></b></div><div><span style="color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline;"><span class="font" style="font-family: Roboto, &quot;Noto Sans&quot;, sans-serif;"><span class="size" style="font-size: medium;"><b>時代：弥生/古墳</b></span></span></span><b></b><b><br></b></div><div><span style="color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline;"><span class="font" style="font-family: Roboto, &quot;Noto Sans&quot;, sans-serif;"><span class="size" style="font-size: medium;"><b>1973年の発掘調査では弥生時代の袋状竪穴群，竪穴住居跡，古墳時代の竪穴住居跡などが検出された。1981年に実施された２次調査では弥生時代の袋状竪穴31基，甕棺墓3基，竪穴住居跡1軒，古墳時代の竪穴住居跡19軒，掘立柱建物8棟，中世の墳墓を含む土壙6基，溝状遺構などが検出された。</b></span></span></span><b></b><b><br></b></div><div><span style="color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline;"><span class="font" style="font-family: Roboto, &quot;Noto Sans&quot;, sans-serif;"><span class="size" style="font-size: medium;"><b>詳細は以下のリンクの浄泉寺遺跡を参照。</b></span></span></span><b><br></b></div><div><a href="https://sites.google.com/view/fukuoka-uni-tateanagroup/%E6%B2%B9%E5%B1%B1%E5%91%A8%E8%BE%BA%E7%99%BA%E6%8E%98%E5%A0%B1%E5%91%8A%E6%9B%B8#h.i0jl4agmnxvi"><b>https://sites.google.com/view/fukuoka-uni-tateanagroup/%E6%B2%B9%E5%B1%B1%E5%91%A8%E8%BE%BA%E7%99%BA%E6%8E%98%E5%A0%B1%E5%91%8A%E6%9B%B8#h.i0jl4agmnxvi</b></a><span style="color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline;"><span class="font" style="font-family: Roboto, &quot;Noto Sans&quot;, sans-serif;"><span class="size" style="font-size: medium;"><b></b></span></span></span></div>]]></description>
+		<styleUrl>#__managed_style_03450AFD232CB3658733</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						130.3752171993256,33.55591581501399,0 130.3750455379486,33.55616615819917,0 130.374391078949,33.55624662549747,0 130.3739941120148,33.55582640655772,0 130.3745412826538,33.55529889478212,0 130.3744876384735,33.55479820265936,0 130.3746914863587,33.55468197014438,0 130.3751850128174,33.55462832431549,0 130.3757750988007,33.55524524933635,0 130.3757858276367,33.55545089003088,0 130.3754425048828,33.55570123456349,0 130.3752171993256,33.55591581501399,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark id="0D62596CFC2CAEA007B2">
+		<name>浄泉寺遺跡</name>
+		<LookAt>
+			<longitude>130.3748899302115</longitude>
+			<latitude>33.5554374459912</latitude>
+			<altitude>14.5695893148707</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>30</gx:fovy>
+			<range>1000.408602279495</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_01AE46E4482CB3658734</styleUrl>
+		<Point>
+			<coordinates>130.3749979929391,33.55523947911317,14.50849114947216</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

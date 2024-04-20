@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>四箇・重留・田村遺跡群</name>
+	<gx:CascadingStyle kml:id="__managed_style_286ECC20A82CCDEF44E0">
+		<Style>
+			<IconStyle>
+				<scale>0.9</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2185&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>6.4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_1B31A21EEF2CCDEF44E0">
+		<Style>
+			<IconStyle>
+				<scale>0.75</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2185&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4.26667</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0460C648FE2CCDEF44E0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1B31A21EEF2CCDEF44E0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_286ECC20A82CCDEF44E0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_039C7A3F8D2CCDE4281B">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1DD13CDCF52CCDE4281B</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_22628D5FEB2CCDE4281B</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_2BADA34E8B2CCDE42818">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.26.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff000000</color>
+				<width>4.4992</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4c2f2fd3</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_22628D5FEB2CCDE4281B">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.26.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff000000</color>
+				<width>4.4992</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>492f2fd3</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_160490FE192CCDE4281A">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.26.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff000000</color>
+				<width>2.99947</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4f2f2fd3</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_1DD13CDCF52CCDE4281B">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.26.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff000000</color>
+				<width>2.99947</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>492f2fd3</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_1F58F1E5FA2CCDE42818">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.26.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff000000</color>
+				<width>2.99947</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4c2f2fd3</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_26BA3BE7852CCDE4281A">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.26.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff000000</color>
+				<width>4.4992</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4f2f2fd3</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0B529E49192CCDE4281A">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_160490FE192CCDE4281A</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_26BA3BE7852CCDE4281A</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_0B7AC054C72CCDE42818">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1F58F1E5FA2CCDE42818</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_2BADA34E8B2CCDE42818</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="0E26BBC4B72C81680C76">
+		<name>四箇遺跡群</name>
+		<description><![CDATA[<div><b>時代・遺跡種別：集落/散布地/その他/田畑 </b><br></div><div><b>主な時代：縄文/弥生/古墳|古代（細分不明）/中世（細分不明）/近世（細分不明）/不明</b><br></div>]]></description>
+		<styleUrl>#__managed_style_0B7AC054C72CCDE42818</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						130.334278,33.535636,0 130.333141,33.534974,0 130.331102,33.535027,0 130.330888,33.534867,0 130.330008,33.534115,0 130.329472,33.533328,0 130.329622,33.532488,0 130.329836,33.531915,0 130.331789,33.531003,0 130.333076,33.530878,0 130.334042,33.531146,0 130.333827,33.531522,0 130.333892,33.531736,0 130.338162,33.532237,0 130.338312,33.532273,0 130.338441,33.532488,0 130.337819,33.532935,0 130.337261,33.5334,0 130.336939,33.534187,0 130.336832,33.534938,0 130.336767,33.535117,0 130.334965,33.535886,0 130.334278,33.535636,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark id="0074EA31F42C81681F36">
+		<name>重留遺跡群</name>
+		<description><![CDATA[<div><span style="color: rgba(0, 0, 0, 0.87); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline;"><span class="font" style="font-family: &quot;Helvetica Neue&quot;, Arial, Helvetica, sans-serif;"><span class="size" style="font-size: 12px;"><b>時代・遺跡種別：集落</b></span></span></span><b></b><br></div><div><span style="color: rgba(0, 0, 0, 0.87); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline;"><span class="font" style="font-family: &quot;Helvetica Neue&quot;, Arial, Helvetica, sans-serif;"><span class="size" style="font-size: 12px;"><b>主場時代：縄文/弥生/古墳/古代（細分不明）/中世（細分不明）/安土桃山|江戸</b></span></span></span><br></div>]]></description>
+		<styleUrl>#__managed_style_0B529E49192CCDE4281A</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						130.3363294600786,33.53202973924801,0 130.3339047430473,33.53173639820832,0 130.3338232039914,33.53152533514059,0 130.334051,33.531146,0 130.334287,33.531057,0 130.33448,33.530753,0 130.334394,33.530359,0 130.334029,33.529983,0 130.334501,33.529125,0 130.33463,33.526424,0 130.334651,33.526066,0 130.334244,33.525261,0 130.334373,33.524295,0 130.334909,33.523097,0 130.335982,33.522077,0 130.336647,33.522292,0 130.337205,33.523079,0 130.337527,33.525941,0 130.338278,33.52763,0 130.338471,33.528273,0 130.338256,33.528882,0 130.3386275768935,33.53025894523211,0 130.3380922077122,33.52985469871805,0 130.3370085949428,33.53008812437731,0 130.3373165133235,33.53091360674836,0 130.3385610576515,33.53088230481299,0 130.3382992744446,33.5322425899199,0 130.3363294600786,33.53202973924801,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark id="0AE5112F1A2C8167FB6C">
+		<name>田村遺跡群</name>
+		<description><![CDATA[<div><span style="color: rgba(0, 0, 0, 0.87); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline;"><span class="font" style="font-family: &quot;Helvetica Neue&quot;, Arial, Helvetica, sans-serif;"><span class="size" style="font-size: 12px;"><b>時代・遺跡種別：集落</b></span></span></span><b></b><br></div><div><span style="color: rgba(0, 0, 0, 0.87); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline;"><span class="font" style="font-family: &quot;Helvetica Neue&quot;, Arial, Helvetica, sans-serif;"><span class="size" style="font-size: 12px;"><b>主な時代：縄文|弥生|古墳|古代（細分不明）|鎌倉|中世（細分不明）|近世（細分不明</b>）</span></span></span><br></div>]]></description>
+		<styleUrl>#__managed_style_039C7A3F8D2CCDE4281B</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						130.329416,33.544757,0 130.328643,33.544757,0 130.327549,33.543898,0 130.327442,33.543022,0 130.327978,33.542396,0 130.329201,33.542307,0 130.329759,33.540465,0 130.330338,33.538944,0 130.330832,33.538927,0 130.332205,33.538766,0 130.332291,33.538605,0 130.332205,33.538283,0 130.332742,33.538283,0 130.333085,33.538658,0 130.333385,33.538712,0 130.334265,33.538766,0 130.334437,33.539374,0 130.335617,33.54059,0 130.335746,33.541109,0 130.335639,33.542164,0 130.33536,33.543934,0 130.332377,33.543809,0 130.331819,33.544149,0 130.331218,33.544006,0 130.330167,33.544203,0 130.329416,33.544757,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark id="081DB5618E2CCDEEC17C">
+		<name>四箇遺跡群</name>
+		<LookAt>
+			<longitude>130.3409568850833</longitude>
+			<latitude>33.53164584596414</latitude>
+			<altitude>31.31620854659613</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>30</gx:fovy>
+			<range>3183.030154533335</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0460C648FE2CCDEF44E0</styleUrl>
+		<Point>
+			<coordinates>130.3337967421357,33.53307685107968,22.6849511329537</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="090D003A6B2CCDEF787B">
+		<name>重留遺跡群</name>
+		<LookAt>
+			<longitude>130.340956883862</longitude>
+			<latitude>33.53164584562602</latitude>
+			<altitude>31.31620854659613</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>30</gx:fovy>
+			<range>3183.030154533335</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0460C648FE2CCDEF44E0</styleUrl>
+		<Point>
+			<coordinates>130.3363939418518,33.52769002914675,28.55367744657259</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="01E91FC71E2CCDF1268F">
+		<name>田村遺跡群</name>
+		<LookAt>
+			<longitude>130.3373295086157</longitude>
+			<latitude>33.54194673963882</latitude>
+			<altitude>15.23975516811547</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>30</gx:fovy>
+			<range>3199.106879132451</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0460C648FE2CCDEF44E0</styleUrl>
+		<Point>
+			<coordinates>130.3321594369392,33.54175908660068,14.35714845295626</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>
