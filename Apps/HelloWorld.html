@@ -48,23 +48,6 @@
             color : Cesium.Color.BLUE //ポイントの色
         }
 
-
-
-	// CesiumのViewerを作成
-	var viewer = new
-	Cesium.Viewer('cesiumContainer');
-
-	// 地形プロバイダーとしてCesium.JapanGSITerrainProviderを設定
-	var terrainProvider = new
-	Cesium.JapanGSITerrainProvider({
-   	 heightPower: 3.0
-	});
-
-	// Viewerの地形プロバイダーを設定
-	viewer.terrainProvider = terrainProvider;
-
-
-
     });
 
 	// KMLファイルのリスト
