@@ -70,7 +70,10 @@
 	});
 
     viewer.zoomTo(viewer.entities);　//レイヤにズーム
-      
+     
+	var terrain = new Cesium.JapanGSITerrainProvider({
+    		heightPower: 2.0
+	}); 
     </script>
   </body>
 </html>
