@@ -28,11 +28,6 @@
   <body>
     <div id="cesiumContainer"></div>
     <script>
-      // 地形プロバイダーとしてCesium.JapanGSITerrainProviderを設定
-      var terrainProvider = new Cesium.JapanGSITerrainProvider({
-          heightPower: 3.0
-      });
-
       const viewer = new Cesium.Viewer("cesiumContainer",{
 		  baseLayerPicker: true,
 		  timeline : false,
@@ -41,8 +36,7 @@
 		  vrButton: true,
 		  geocoder:false,
 		  sceneModePicker:false,
-		  navigationHelpButton:false,
-          terrainProvider: terrainProvider // Viewerの地形プロバイダーを設定
+		  navigationHelpButton:false
       });
       
       var point = viewer.entities.add({
