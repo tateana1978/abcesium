@@ -50,6 +50,18 @@
 
     });
 
+    // マーカーを削除する関数
+    function removeMarker(name) {
+        var entities = viewer.entities.values;
+        for (var i = 0; i < entities.length; i++) {
+            var entity = entities[i];
+            if (entity.name === name) {
+                viewer.entities.remove(entity);
+                break;
+            }
+        }
+    }
+
 	// KMLファイルのリスト
 	var kmlFiles = ["./kml/クエゾノ古墳群.kml", "./kml/タカバン塚古墳.kml", "./kml/羽根戸古墳群.kml", "./kml/羽根戸南古墳群.kml"
 			, "./kml/羽根戸南古墳群前方後円墳.kml", "./kml/卯内尺古墳群.kml", "./kml/影塚古墳群.kml", "./kml/干隈古墳群.kml"
