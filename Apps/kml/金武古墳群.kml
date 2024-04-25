@@ -2,30 +2,7 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>金武古墳群</name>
-	<gx:CascadingStyle kml:id="__managed_style_0E63827484303FAAB69D">
-		<Style>
-			<IconStyle>
-				<scale>0.9</scale>
-				<Icon>
-					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2185&amp;scale=4</href>
-				</Icon>
-				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
-			</IconStyle>
-			<LabelStyle>
-			</LabelStyle>
-			<LineStyle>
-				<color>ff2dc0fb</color>
-				<width>6.4</width>
-			</LineStyle>
-			<PolyStyle>
-				<color>40ffffff</color>
-			</PolyStyle>
-			<BalloonStyle>
-				<displayMode>hide</displayMode>
-			</BalloonStyle>
-		</Style>
-	</gx:CascadingStyle>
-	<gx:CascadingStyle kml:id="__managed_style_1A2EE70AB9303FAAB69C">
+	<gx:CascadingStyle kml:id="__managed_style_1A49BD461430445BDDA4">
 		<Style>
 			<IconStyle>
 				<scale>0.75</scale>
@@ -48,44 +25,13 @@
 			</BalloonStyle>
 		</Style>
 	</gx:CascadingStyle>
-	<gx:CascadingStyle kml:id="__managed_style_191BC0E3E9303FBA8CA0">
-		<styleUrl>https://earth.google.com/balloon_components/base/1.0.26.0/card_template.kml#main</styleUrl>
-		<Style>
-			<IconStyle>
-				<Icon>
-					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-				</Icon>
-			</IconStyle>
-			<LabelStyle>
-			</LabelStyle>
-			<LineStyle>
-				<color>ff000000</color>
-				<width>0.999467</width>
-			</LineStyle>
-			<PolyStyle>
-				<color>ff0000ff</color>
-			</PolyStyle>
-			<BalloonStyle>
-			</BalloonStyle>
-		</Style>
-	</gx:CascadingStyle>
 	<Style id="LineStyle2">
 		<LineStyle>
 			<color>ff000000</color>
 			<width>3</width>
 		</LineStyle>
 	</Style>
-	<StyleMap id="__managed_style_0E56E6DA6E303FBA8CA0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#__managed_style_191BC0E3E9303FBA8CA0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#__managed_style_27C7EB1362303FBA8CA0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<gx:CascadingStyle kml:id="__managed_style_2B582DBD5D303FEC8E1C">
+	<gx:CascadingStyle kml:id="__managed_style_2DA9AE3EEC30445BDDA0">
 		<styleUrl>https://earth.google.com/balloon_components/base/1.0.26.0/card_template.kml#main</styleUrl>
 		<Style>
 			<IconStyle>
@@ -107,7 +53,7 @@
 			</BalloonStyle>
 		</Style>
 	</gx:CascadingStyle>
-	<gx:CascadingStyle kml:id="__managed_style_10544761D8303FEC8E1C">
+	<gx:CascadingStyle kml:id="__managed_style_101B5B855330445BDDA0">
 		<styleUrl>https://earth.google.com/balloon_components/base/1.0.26.0/card_template.kml#main</styleUrl>
 		<Style>
 			<IconStyle>
@@ -128,6 +74,16 @@
 			</BalloonStyle>
 		</Style>
 	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0D8F7AFD3F30445BDDA4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1A49BD461430445BDDA4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_024B21D57530445BDDA5</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="PolyStyle3">
 		<LineStyle>
 			<color>ff000000</color>
@@ -136,17 +92,28 @@
 			<color>ff0000ff</color>
 		</PolyStyle>
 	</Style>
-	<StyleMap id="__managed_style_076EAD4DBE303FAAB69C">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#__managed_style_1A2EE70AB9303FAAB69C</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#__managed_style_0E63827484303FAAB69D</styleUrl>
-		</Pair>
-	</StyleMap>
-	<gx:CascadingStyle kml:id="__managed_style_27C7EB1362303FBA8CA0">
+	<gx:CascadingStyle kml:id="__managed_style_035525CE5A30445BDD9E">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.26.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff000000</color>
+				<width>0.999467</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>ff0000ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_1BAFF860D530445BDD9E">
 		<styleUrl>https://earth.google.com/balloon_components/base/1.0.26.0/card_template.kml#main</styleUrl>
 		<Style>
 			<IconStyle>
@@ -168,16 +135,49 @@
 			</BalloonStyle>
 		</Style>
 	</gx:CascadingStyle>
-	<StyleMap id="__managed_style_03AC93657B303FEC8E1C">
+	<StyleMap id="__managed_style_06F63F444D30445BDDA0">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#__managed_style_10544761D8303FEC8E1C</styleUrl>
+			<styleUrl>#__managed_style_101B5B855330445BDDA0</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#__managed_style_2B582DBD5D303FEC8E1C</styleUrl>
+			<styleUrl>#__managed_style_2DA9AE3EEC30445BDDA0</styleUrl>
 		</Pair>
 	</StyleMap>
+	<StyleMap id="__managed_style_08A9C2A41530445BDD9D">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_035525CE5A30445BDD9E</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_1BAFF860D530445BDD9E</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_024B21D57530445BDDA5">
+		<Style>
+			<IconStyle>
+				<scale>0.9</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2185&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>6.4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
 	<Style id="PolyStyle1">
 		<LineStyle>
 			<color>ff000000</color>
@@ -310,7 +310,8 @@
 	</Placemark>
 	<Placemark id="08023B5F5A303FF9434A">
 		<name>金武古墳群乙石G群1号墳</name>
-		<styleUrl>#PolyStyle3</styleUrl>
+		<description><![CDATA[<div><b>昭和30年代に破壊消滅。詳細不明。</b></div>]]></description>
+		<styleUrl>#__managed_style_08A9C2A41530445BDD9D</styleUrl>
 		<Polygon>
 			<outerBoundaryIs>
 				<LinearRing>
@@ -323,7 +324,8 @@
 	</Placemark>
 	<Placemark id="023D1A0E44303FF92ACF">
 		<name>金武古墳群乙石G群2号墳</name>
-		<styleUrl>#PolyStyle3</styleUrl>
+		<description><![CDATA[<div><b>昭和30年代に破壊消滅。詳細不明。</b><br></div>]]></description>
+		<styleUrl>#__managed_style_08A9C2A41530445BDD9D</styleUrl>
 		<Polygon>
 			<outerBoundaryIs>
 				<LinearRing>
@@ -336,7 +338,8 @@
 	</Placemark>
 	<Placemark id="0B90F67392303FF94BA3">
 		<name>金武古墳群乙石G群3号墳</name>
-		<styleUrl>#PolyStyle3</styleUrl>
+		<description><![CDATA[<div><b>昭和30年代に破壊消滅。詳細不明。</b><br></div>]]></description>
+		<styleUrl>#__managed_style_08A9C2A41530445BDD9D</styleUrl>
 		<Polygon>
 			<outerBoundaryIs>
 				<LinearRing>
@@ -382,7 +385,7 @@
 			</outerBoundaryIs>
 		</Polygon>
 	</Placemark>
-	<Placemark>
+	<Placemark id="0404E8E35430445E316F">
 		<name>金武古墳群吉武I群4号墳</name>
 		<styleUrl>#PolyStyle3</styleUrl>
 		<Polygon>
@@ -504,9 +507,10 @@
 			</coordinates>
 		</LineString>
 	</Placemark>
-	<Placemark>
+	<Placemark id="0B034078F330442FC062">
 		<name>金武古墳群乙石C群3号墳</name>
-		<styleUrl>#PolyStyle3</styleUrl>
+		<description><![CDATA[<div><b>1978年に発掘調査され現存しない。</b><br></div><div><b>墳形：円墳</b><br></div><div><b>墳丘：東西径6ｍ、南北径6.7ｍ</b><br></div><div><b>埋葬施設：両袖単室横穴式石室</b><br></div><div><b>発掘調査：有（1978年）</b><br></div><div><b>詳細は以下のリンクの調査報告書を参照。</b><br></div><div><b>県道大野・二丈線関係埋蔵文化財調査報告</b><br></div><div><a href="https://sitereports.nabunken.go.jp/ja/search/item/16971?all=%E7%BE%BD%E6%A0%B9%E6%88%B8%E5%8F%A4%E5%A2%B3%E7%BE%A4"><b>https://sitereports.nabunken.go.jp/ja/search/item/16971?all=%E7%BE%BD%E6%A0%B9%E6%88%B8%E5%8F%A4%E5%A2%B3%E7%BE%A4</b></a><br></div>]]></description>
+		<styleUrl>#__managed_style_08A9C2A41530445BDD9D</styleUrl>
 		<Polygon>
 			<outerBoundaryIs>
 				<LinearRing>
@@ -517,9 +521,10 @@
 			</outerBoundaryIs>
 		</Polygon>
 	</Placemark>
-	<Placemark>
+	<Placemark id="05838C3C7B30442F2A0E">
 		<name>金武古墳群乙石C群2号墳</name>
-		<styleUrl>#PolyStyle1</styleUrl>
+		<description><![CDATA[<div><b>1978年に発掘調査され現存しない。</b><br></div><div><b>墳形：円墳</b><br></div><div><b>墳丘：東西径8ｍ、南北径8ｍ</b><br></div><div><b>埋葬施設：両袖単室横穴式石室</b><br></div><div><b>発掘調査：有（1978年）</b><br></div><div><b>詳細は以下のリンクの調査報告書を参照。</b><br></div><div><b>県道大野・二丈線関係埋蔵文化財調査報告</b><br></div><div><a href="https://sitereports.nabunken.go.jp/ja/search/item/16971?all=%E7%BE%BD%E6%A0%B9%E6%88%B8%E5%8F%A4%E5%A2%B3%E7%BE%A4"><b>https://sitereports.nabunken.go.jp/ja/search/item/16971?all=%E7%BE%BD%E6%A0%B9%E6%88%B8%E5%8F%A4%E5%A2%B3%E7%BE%A4</b></a><br></div>]]></description>
+		<styleUrl>#__managed_style_06F63F444D30445BDDA0</styleUrl>
 		<Polygon>
 			<outerBoundaryIs>
 				<LinearRing>
@@ -530,9 +535,10 @@
 			</outerBoundaryIs>
 		</Polygon>
 	</Placemark>
-	<Placemark>
+	<Placemark id="062537AEB5304429AB62">
 		<name>金武古墳群乙石C群1号墳</name>
-		<styleUrl>#PolyStyle1</styleUrl>
+		<description><![CDATA[<div><b>1978年に発掘調査され現存しない。</b><br></div><div><b>墳形：円墳</b><br></div><div><b>墳丘：墳丘規模不明</b><br></div><div><b>埋葬施設：両袖単室横穴式石室</b><br></div><div><b>発掘調査：有（1978年）</b><br></div><div><b>詳細は以下のリンクの調査報告書を参照。</b><br></div><div><b>県道大野・二丈線関係埋蔵文化財調査報告</b><br></div><div><a href="https://sitereports.nabunken.go.jp/ja/search/item/16971?all=%E7%BE%BD%E6%A0%B9%E6%88%B8%E5%8F%A4%E5%A2%B3%E7%BE%A4"><b>https://sitereports.nabunken.go.jp/ja/search/item/16971?all=%E7%BE%BD%E6%A0%B9%E6%88%B8%E5%8F%A4%E5%A2%B3%E7%BE%A4</b></a><br></div>]]></description>
+		<styleUrl>#__managed_style_06F63F444D30445BDDA0</styleUrl>
 		<Polygon>
 			<outerBoundaryIs>
 				<LinearRing>
@@ -991,7 +997,7 @@
 			</outerBoundaryIs>
 		</Polygon>
 	</Placemark>
-	<Placemark>
+	<Placemark id="002D9B9A633044293224">
 		<name>金武古墳群吉武C群7号墳</name>
 		<styleUrl>#PolyStyle3</styleUrl>
 		<Polygon>
@@ -1180,7 +1186,8 @@
 	</Placemark>
 	<Placemark id="0DF7DB208E303FAF2D39">
 		<name>金武古墳群吉武E群3号墳</name>
-		<styleUrl>#PolyStyle3</styleUrl>
+		<description><![CDATA[<div><b>1978年に発掘調査され現存しない。</b><b><br></b></div><div><b>墳形：円墳</b><b><br></b></div><div><b>墳丘：東西径8ｍ、南北径6.5ｍ</b><b><br></b></div><div><b>埋葬施設：両袖単室横穴式石室</b><b><br></b></div><div><b>発掘調査：有（1978年）</b><b><br></b></div><div><b>詳細は以下のリンクの調査報告書を参照。</b><b><br></b></div><div><b>県道大野・二丈線関係埋蔵文化財調査報告</b></div><div><a href="https://sitereports.nabunken.go.jp/ja/search/item/16971?all=%E7%BE%BD%E6%A0%B9%E6%88%B8%E5%8F%A4%E5%A2%B3%E7%BE%A4"><b>https://sitereports.nabunken.go.jp/ja/search/item/16971?all=%E7%BE%BD%E6%A0%B9%E6%88%B8%E5%8F%A4%E5%A2%B3%E7%BE%A4</b></a><br></div>]]></description>
+		<styleUrl>#__managed_style_08A9C2A41530445BDD9D</styleUrl>
 		<Polygon>
 			<outerBoundaryIs>
 				<LinearRing>
@@ -1191,9 +1198,10 @@
 			</outerBoundaryIs>
 		</Polygon>
 	</Placemark>
-	<Placemark>
+	<Placemark id="0378279FB3304414EE3E">
 		<name>金武古墳群吉武E群4号墳</name>
-		<styleUrl>#PolyStyle3</styleUrl>
+		<description><![CDATA[<div><b>1978年に発掘調査され現存しない。</b><br></div><div><b>墳形：円墳</b><br></div><div><b>墳丘：東西径8.8ｍ、南北径8.5ｍ</b><br></div><div><b>埋葬施設：両袖単室横穴式石室</b><br></div><div><b>発掘調査：有（1978年）</b><br></div><div><b>詳細は以下のリンクの調査報告書を参照。</b><br></div><div><b>県道大野・二丈線関係埋蔵文化財調査報告</b><br></div><div><a href="https://sitereports.nabunken.go.jp/ja/search/item/16971?all=%E7%BE%BD%E6%A0%B9%E6%88%B8%E5%8F%A4%E5%A2%B3%E7%BE%A4"><b>https://sitereports.nabunken.go.jp/ja/search/item/16971?all=%E7%BE%BD%E6%A0%B9%E6%88%B8%E5%8F%A4%E5%A2%B3%E7%BE%A4</b></a><br></div>]]></description>
+		<styleUrl>#__managed_style_08A9C2A41530445BDD9D</styleUrl>
 		<Polygon>
 			<outerBoundaryIs>
 				<LinearRing>
@@ -1204,9 +1212,10 @@
 			</outerBoundaryIs>
 		</Polygon>
 	</Placemark>
-	<Placemark>
+	<Placemark id="04E2346F9D3044150162">
 		<name>金武古墳群吉武E群5号墳</name>
-		<styleUrl>#PolyStyle3</styleUrl>
+		<description><![CDATA[<div><b>1978年に発掘調査され現存しない。</b><br></div><div><b>墳形：円墳</b><br></div><div><b>墳丘：墳丘規模不明</b><br></div><div><b>埋葬施設：両袖単室横穴式石室</b><br></div><div><b>発掘調査：有（1978年）</b><br></div><div><b>詳細は以下のリンクの調査報告書を参照。</b><br></div><div><b>県道大野・二丈線関係埋蔵文化財調査報告</b><br></div><div><a href="https://sitereports.nabunken.go.jp/ja/search/item/16971?all=%E7%BE%BD%E6%A0%B9%E6%88%B8%E5%8F%A4%E5%A2%B3%E7%BE%A4"><b>https://sitereports.nabunken.go.jp/ja/search/item/16971?all=%E7%BE%BD%E6%A0%B9%E6%88%B8%E5%8F%A4%E5%A2%B3%E7%BE%A4</b></a><br></div>]]></description>
+		<styleUrl>#__managed_style_08A9C2A41530445BDD9D</styleUrl>
 		<Polygon>
 			<outerBoundaryIs>
 				<LinearRing>
@@ -1217,7 +1226,7 @@
 			</outerBoundaryIs>
 		</Polygon>
 	</Placemark>
-	<Placemark>
+	<Placemark id="039D78F513304460933F">
 		<name>金武古墳群吉武E群1号墳</name>
 		<styleUrl>#PolyStyle1</styleUrl>
 		<Polygon>
@@ -1254,7 +1263,8 @@
 	</Placemark>
 	<Placemark id="05DF1065DD303FB0B91B">
 		<name>金武古墳群吉武F群2号墳</name>
-		<styleUrl>#PolyStyle3</styleUrl>
+		<description><![CDATA[<div><b>昭和30年代に破壊消滅</b></div>]]></description>
+		<styleUrl>#__managed_style_08A9C2A41530445BDD9D</styleUrl>
 		<Polygon>
 			<outerBoundaryIs>
 				<LinearRing>
@@ -1265,7 +1275,7 @@
 			</outerBoundaryIs>
 		</Polygon>
 	</Placemark>
-	<Placemark>
+	<Placemark id="0D5618351130445E24AD">
 		<name>金武古墳群吉武F群1号墳</name>
 		<styleUrl>#PolyStyle1</styleUrl>
 		<Polygon>
@@ -1646,8 +1656,8 @@
 	</Placemark>
 	<Placemark id="06735B2A83303FF54B99">
 		<name>金武古墳群吉武K群7号墳</name>
-		<description><![CDATA[<div><b>装飾古墳</b><br></div><div><b>墳形：円墳</b><br></div><div><b>墳丘：墳丘径15～16ｍ</b><br></div><div><b>埋葬施設：両袖単室横穴式石室</b><br></div><div><b>発掘調査：有</b><br></div><div><b>詳細は以下リンク報告書を参照</b><a href="https://sitereports.nabunken.go.jp/ja/search?all=%E9%87%91%E6%AD%A6%E5%8F%A4%E5%A2%B3%E7%BE%A4"><b>https://sitereports.nabunken.go.jp/ja/search?all=%E9%87%91%E6%AD%A6%E5%8F%A4%E5%A2%B3%E7%BE%A4</b></a><br></div>]]></description>
-		<styleUrl>#__managed_style_03AC93657B303FEC8E1C</styleUrl>
+		<description><![CDATA[<div><b>装飾古墳</b><br></div><div><b>墳形：円墳</b><br></div><div><b>墳丘：墳丘径15～16ｍ</b><br></div><div><b>埋葬施設：両袖単室横穴式石室</b><br></div><div><b>発掘調査：有</b><br></div><div><b>詳細は以下リンク報告書を参照</b><br></div><div><b>装飾古墳・吉武K７号墳</b><br></div><div><a href="https://sitereports.nabunken.go.jp/ja/search/item/16999?all=%E9%87%91%E6%AD%A6%E5%8F%A4%E5%A2%B3%E7%BE%A4"><b>https://sitereports.nabunken.go.jp/ja/search/item/16999?all=%E9%87%91%E6%AD%A6%E5%8F%A4%E5%A2%B3%E7%BE%A4</b></a><br></div>]]></description>
+		<styleUrl>#__managed_style_06F63F444D30445BDDA0</styleUrl>
 		<Polygon>
 			<outerBoundaryIs>
 				<LinearRing>
@@ -1661,7 +1671,7 @@
 	<Placemark id="01B4C15B2F303FF5AF50">
 		<name>金武古墳群吉武K群8号墳</name>
 		<description><![CDATA[<div><b>墳形：円墳</b><br></div><div><b>墳丘：墳丘径南北17ｍ、東西15ｍ</b><br></div><div><b>埋葬施設：両袖単室横穴式石室</b><br></div><div><b>発掘調査：有</b><br></div><div><b>詳細は以下リンク報告書を参照</b><a href="https://sitereports.nabunken.go.jp/ja/search?all=%E9%87%91%E6%AD%A6%E5%8F%A4%E5%A2%B3%E7%BE%A4"><b>https://sitereports.nabunken.go.jp/ja/search?all=%E9%87%91%E6%AD%A6%E5%8F%A4%E5%A2%B3%E7%BE%A4</b></a><br></div>]]></description>
-		<styleUrl>#__managed_style_03AC93657B303FEC8E1C</styleUrl>
+		<styleUrl>#__managed_style_06F63F444D30445BDDA0</styleUrl>
 		<Polygon>
 			<outerBoundaryIs>
 				<LinearRing>
@@ -1675,7 +1685,7 @@
 	<Placemark id="0338530AA7303FEC672D">
 		<name>金武古墳群吉武K群9号墳</name>
 		<description><![CDATA[<div><b>墳形：円墳</b><br></div><div><b>墳丘：墳丘径6ｍ</b><br></div><div><b>埋葬施設：両袖複室横穴式石室</b><br></div><div><b>発掘調査：有</b><br></div><div><b>詳細は以下リンク報告書を参照</b><a href="https://sitereports.nabunken.go.jp/ja/search?all=%E9%87%91%E6%AD%A6%E5%8F%A4%E5%A2%B3%E7%BE%A4"><b>https://sitereports.nabunken.go.jp/ja/search?all=%E9%87%91%E6%AD%A6%E5%8F%A4%E5%A2%B3%E7%BE%A4</b></a><br></div>]]></description>
-		<styleUrl>#__managed_style_03AC93657B303FEC8E1C</styleUrl>
+		<styleUrl>#__managed_style_06F63F444D30445BDDA0</styleUrl>
 		<Polygon>
 			<outerBoundaryIs>
 				<LinearRing>
@@ -1723,7 +1733,8 @@
 	</Placemark>
 	<Placemark id="02A3E7510F303FF9B035">
 		<name>金武古墳群吉武Q群1号墳</name>
-		<styleUrl>#PolyStyle3</styleUrl>
+		<description><![CDATA[<div><b>昭和の初期に開墾のため破壊消滅</b></div>]]></description>
+		<styleUrl>#__managed_style_08A9C2A41530445BDD9D</styleUrl>
 		<Polygon>
 			<outerBoundaryIs>
 				<LinearRing>
@@ -1736,7 +1747,8 @@
 	</Placemark>
 	<Placemark id="0E512B6E88303FF9A235">
 		<name>金武古墳群吉武Q群2号墳</name>
-		<styleUrl>#PolyStyle3</styleUrl>
+		<description><![CDATA[<div><b>昭和の初期に開墾のため破壊消滅</b><br></div>]]></description>
+		<styleUrl>#__managed_style_08A9C2A41530445BDD9D</styleUrl>
 		<Polygon>
 			<outerBoundaryIs>
 				<LinearRing>
@@ -2072,7 +2084,7 @@
 	<Placemark id="01E46C2B99303FF46B40">
 		<name>金武古墳群吉武K群6号墳</name>
 		<description><![CDATA[<div><b>墳形：円墳</b><br></div><div><b>墳丘：墳丘径約15ｍ</b><br></div><div><b>埋葬施設：両袖単室横穴式石室</b><br></div><div><b>発掘調査：有</b><br></div><div><b>詳細は以下リンク報告書を参照</b><a href="https://sitereports.nabunken.go.jp/ja/search?all=%E9%87%91%E6%AD%A6%E5%8F%A4%E5%A2%B3%E7%BE%A4"><b>https://sitereports.nabunken.go.jp/ja/search?all=%E9%87%91%E6%AD%A6%E5%8F%A4%E5%A2%B3%E7%BE%A4</b></a><br></div>]]></description>
-		<styleUrl>#__managed_style_03AC93657B303FEC8E1C</styleUrl>
+		<styleUrl>#__managed_style_06F63F444D30445BDDA0</styleUrl>
 		<Polygon>
 			<outerBoundaryIs>
 				<LinearRing>
@@ -2099,7 +2111,7 @@
 	<Placemark id="09050104E7303FB26AC5">
 		<name>金武古墳群乙石H群1号墳</name>
 		<description><![CDATA[<div><b>通称夫婦塚古墳と呼ばれており、発掘調査され現存しない。</b><b><br></b></div><div><b>墳形：円墳</b><b><br></b></div><div><b>墳丘：墳丘径約20ｍ</b><b><br></b></div><div><b>埋葬施設：両袖単室横穴式石室</b><b><br></b></div><div><b>発掘調査：有</b><b><br></b></div><div><b>詳細は以下リンクの調査報告書を参照。</b><b><br></b></div><div><b>四箇周辺遺跡調査報告書</b><b><br></b></div><div><a href="https://sitereports.nabunken.go.jp/ja/search/item/16965?all=%E5%A4%AB%E5%A9%A6%E5%A1%9A%E5%8F%A4%E5%A2%B3%E7%BE%A4"><b>https://sitereports.nabunken.go.jp/ja/search/item/16965?all=%E5%A4%AB%E5%A9%A6%E5%A1%9A%E5%8F%A4%E5%A2%B3%E7%BE%A4</b></a><br></div>]]></description>
-		<styleUrl>#__managed_style_0E56E6DA6E303FBA8CA0</styleUrl>
+		<styleUrl>#__managed_style_08A9C2A41530445BDD9D</styleUrl>
 		<Polygon>
 			<outerBoundaryIs>
 				<LinearRing>
@@ -2113,7 +2125,7 @@
 	<Placemark id="01BF094251303FBAFEB0">
 		<name>金武古墳群乙石H群2号墳</name>
 		<description><![CDATA[<div><b>通称夫婦塚古墳と呼ばれており、発掘調査され現存しない。</b><b><br></b></div><div><b>墳形：円墳</b><b><br></b></div><div><b>墳丘：墳丘径約30ｍ</b><b><br></b></div><div><b>埋葬施設：両袖複室横穴式石室</b><b><br></b></div><div><b>発掘調査：有</b><b><br></b></div><div><b>詳細は以下リンクの調査報告書を参照。</b><b><br></b></div><div><b>四箇周辺遺跡調査報告書</b><b><br></b></div><div><a href="https://sitereports.nabunken.go.jp/ja/search/item/16965?all=%E5%A4%AB%E5%A9%A6%E5%A1%9A%E5%8F%A4%E5%A2%B3%E7%BE%A4"><b>https://sitereports.nabunken.go.jp/ja/search/item/16965?all=%E5%A4%AB%E5%A9%A6%E5%A1%9A%E5%8F%A4%E5%A2%B3%E7%BE%A4</b></a><br></div>]]></description>
-		<styleUrl>#__managed_style_0E56E6DA6E303FBA8CA0</styleUrl>
+		<styleUrl>#__managed_style_08A9C2A41530445BDD9D</styleUrl>
 		<Polygon>
 			<outerBoundaryIs>
 				<LinearRing>
@@ -2136,7 +2148,7 @@
 	<Placemark id="039EFD00C2303FED9E23">
 		<name>金武古墳群吉武L群8号墳</name>
 		<description><![CDATA[<div><b>吉武塚原古墳群として発掘調査され現存しない。</b><br></div><div><b>墳形：円墳</b><br></div><div><b>墳丘：墳丘規模は不明</b><br></div><div><b>埋葬施設：両袖単室横穴式石室</b><br></div><div><b>発掘調査：有（1979年）</b><br></div><div><b>詳細は以下のリンク調査報告書を参照。</b><br></div><div><b>吉武塚原古墳群</b><br></div><div><a href="https://sitereports.nabunken.go.jp/ja/search/item/16973?all=%E5%90%89%E6%AD%A6%E5%A1%9A%E5%8E%9F%E5%8F%A4%E5%A2%B3%E7%BE%A4"><b>https://sitereports.nabunken.go.jp/ja/search/item/16973?all=%E5%90%89%E6%AD%A6%E5%A1%9A%E5%8E%9F%E5%8F%A4%E5%A2%B3%E7%BE%A4</b></a><br></div>]]></description>
-		<styleUrl>#__managed_style_0E56E6DA6E303FBA8CA0</styleUrl>
+		<styleUrl>#__managed_style_08A9C2A41530445BDD9D</styleUrl>
 		<Polygon>
 			<outerBoundaryIs>
 				<LinearRing>
@@ -2150,7 +2162,7 @@
 	<Placemark id="0E822B57C9303FEE6D26">
 		<name>金武古墳群吉武L群7号墳</name>
 		<description><![CDATA[<div><b>吉武塚原古墳群として発掘調査され現存しない。</b><br></div><div><b>墳形：円墳</b><br></div><div><b>墳丘：墳丘規模は不明</b><br></div><div><b>埋葬施設：竪穴系横口式石室</b><br></div><div><b>発掘調査：有（1979年）</b><br></div><div><b>詳細は以下のリンク調査報告書を参照。</b><br></div><div><b>吉武塚原古墳群</b><br></div><div><a href="https://sitereports.nabunken.go.jp/ja/search/item/16973?all=%E5%90%89%E6%AD%A6%E5%A1%9A%E5%8E%9F%E5%8F%A4%E5%A2%B3%E7%BE%A4"><b>https://sitereports.nabunken.go.jp/ja/search/item/16973?all=%E5%90%89%E6%AD%A6%E5%A1%9A%E5%8E%9F%E5%8F%A4%E5%A2%B3%E7%BE%A4</b></a><br></div>]]></description>
-		<styleUrl>#__managed_style_0E56E6DA6E303FBA8CA0</styleUrl>
+		<styleUrl>#__managed_style_08A9C2A41530445BDD9D</styleUrl>
 		<Polygon>
 			<outerBoundaryIs>
 				<LinearRing>
@@ -2164,7 +2176,7 @@
 	<Placemark id="02572CFEE2303FEEFA98">
 		<name>金武古墳群吉武L群6号墳</name>
 		<description><![CDATA[<div><b>吉武塚原古墳群として発掘調査され現存しない。</b><br></div><div><b>墳形：円墳</b><br></div><div><b>墳丘：墳丘規模は不明</b><br></div><div><b>埋葬施設：竪穴式石室</b><br></div><div><b>発掘調査：有（1979年）</b><br></div><div><b>詳細は以下のリンク調査報告書を参照。</b><br></div><div><b>吉武塚原古墳群</b><br></div><div><a href="https://sitereports.nabunken.go.jp/ja/search/item/16973?all=%E5%90%89%E6%AD%A6%E5%A1%9A%E5%8E%9F%E5%8F%A4%E5%A2%B3%E7%BE%A4"><b>https://sitereports.nabunken.go.jp/ja/search/item/16973?all=%E5%90%89%E6%AD%A6%E5%A1%9A%E5%8E%9F%E5%8F%A4%E5%A2%B3%E7%BE%A4</b></a><br></div>]]></description>
-		<styleUrl>#__managed_style_0E56E6DA6E303FBA8CA0</styleUrl>
+		<styleUrl>#__managed_style_08A9C2A41530445BDD9D</styleUrl>
 		<Polygon>
 			<outerBoundaryIs>
 				<LinearRing>
@@ -2178,7 +2190,7 @@
 	<Placemark id="05BF783B0B303FF03444">
 		<name>金武古墳群吉武L群5号墳</name>
 		<description><![CDATA[<div><b>吉武塚原古墳群として発掘調査され現存しない。</b><br></div><div><b>墳形：円墳</b><br></div><div><b>墳丘：墳丘規模は不明</b><br></div><div><b>埋葬施設：竪穴系横口式石室</b><br></div><div><b>発掘調査：有（1979年）</b><br></div><div><b>詳細は以下のリンク調査報告書を参照。</b><br></div><div><b>吉武塚原古墳群</b><br></div><div><a href="https://sitereports.nabunken.go.jp/ja/search/item/16973?all=%E5%90%89%E6%AD%A6%E5%A1%9A%E5%8E%9F%E5%8F%A4%E5%A2%B3%E7%BE%A4"><b>https://sitereports.nabunken.go.jp/ja/search/item/16973?all=%E5%90%89%E6%AD%A6%E5%A1%9A%E5%8E%9F%E5%8F%A4%E5%A2%B3%E7%BE%A4</b></a><br></div>]]></description>
-		<styleUrl>#__managed_style_0E56E6DA6E303FBA8CA0</styleUrl>
+		<styleUrl>#__managed_style_08A9C2A41530445BDD9D</styleUrl>
 		<Polygon>
 			<outerBoundaryIs>
 				<LinearRing>
@@ -2192,7 +2204,7 @@
 	<Placemark id="05C3C9C504303FF25401">
 		<name>金武古墳群吉武L群2号墳</name>
 		<description><![CDATA[<div><b>吉武塚原古墳群として発掘調査され現存しない。</b><br></div><div><b>墳形：円墳</b><br></div><div><b>墳丘：墳丘規模は不明</b><br></div><div><b>埋葬施設：竪穴系横口式石室</b><br></div><div><b>発掘調査：有（1979年）</b><br></div><div><b>詳細は以下のリンク調査報告書を参照。</b><br></div><div><b>吉武塚原古墳群</b><br></div><div><a href="https://sitereports.nabunken.go.jp/ja/search/item/16973?all=%E5%90%89%E6%AD%A6%E5%A1%9A%E5%8E%9F%E5%8F%A4%E5%A2%B3%E7%BE%A4"><b>https://sitereports.nabunken.go.jp/ja/search/item/16973?all=%E5%90%89%E6%AD%A6%E5%A1%9A%E5%8E%9F%E5%8F%A4%E5%A2%B3%E7%BE%A4</b></a><br></div>]]></description>
-		<styleUrl>#__managed_style_0E56E6DA6E303FBA8CA0</styleUrl>
+		<styleUrl>#__managed_style_08A9C2A41530445BDD9D</styleUrl>
 		<Polygon>
 			<outerBoundaryIs>
 				<LinearRing>
@@ -2206,7 +2218,7 @@
 	<Placemark id="0005EAB868303FF17FB0">
 		<name>金武古墳群吉武L群1号墳</name>
 		<description><![CDATA[<div><b>吉武塚原古墳群として発掘調査され現存しない。</b><br></div><div><b>墳形：円墳</b><br></div><div><b>墳丘：墳丘規模は不明</b><br></div><div><b>埋葬施設：両袖単室横穴式石室</b><br></div><div><b>発掘調査：有（1979年）</b><br></div><div><b>詳細は以下のリンク調査報告書を参照。</b><br></div><div><b>吉武塚原古墳群</b><br></div><div><a href="https://sitereports.nabunken.go.jp/ja/search/item/16973?all=%E5%90%89%E6%AD%A6%E5%A1%9A%E5%8E%9F%E5%8F%A4%E5%A2%B3%E7%BE%A4"><b>https://sitereports.nabunken.go.jp/ja/search/item/16973?all=%E5%90%89%E6%AD%A6%E5%A1%9A%E5%8E%9F%E5%8F%A4%E5%A2%B3%E7%BE%A4</b></a><br></div>]]></description>
-		<styleUrl>#__managed_style_0E56E6DA6E303FBA8CA0</styleUrl>
+		<styleUrl>#__managed_style_08A9C2A41530445BDD9D</styleUrl>
 		<Polygon>
 			<outerBoundaryIs>
 				<LinearRing>
@@ -2220,7 +2232,7 @@
 	<Placemark id="0A7A85841C303FEF972C">
 		<name>金武古墳群吉武L群4号墳</name>
 		<description><![CDATA[<div><b>吉武塚原古墳群として発掘調査され現存しない。</b><br></div><div><b>墳形：円墳</b><br></div><div><b>墳丘：墳丘規模は不明</b><br></div><div><b>埋葬施設：竪穴系横口式石室</b><br></div><div><b>発掘調査：有（1979年）</b><br></div><div><b>詳細は以下のリンク調査報告書を参照。</b><br></div><div><b>吉武塚原古墳群</b><br></div><div><a href="https://sitereports.nabunken.go.jp/ja/search/item/16973?all=%E5%90%89%E6%AD%A6%E5%A1%9A%E5%8E%9F%E5%8F%A4%E5%A2%B3%E7%BE%A4"><b>https://sitereports.nabunken.go.jp/ja/search/item/16973?all=%E5%90%89%E6%AD%A6%E5%A1%9A%E5%8E%9F%E5%8F%A4%E5%A2%B3%E7%BE%A4</b></a><br></div>]]></description>
-		<styleUrl>#__managed_style_0E56E6DA6E303FBA8CA0</styleUrl>
+		<styleUrl>#__managed_style_08A9C2A41530445BDD9D</styleUrl>
 		<Polygon>
 			<outerBoundaryIs>
 				<LinearRing>
@@ -2234,7 +2246,7 @@
 	<Placemark id="02C25E110B303FF0CA10">
 		<name>金武古墳群吉武L群3号墳</name>
 		<description><![CDATA[<div><b>吉武塚原古墳群として発掘調査され現存しない。</b><br></div><div><b>墳形：円墳</b><br></div><div><b>墳丘：墳丘規模は不明</b><br></div><div><b>埋葬施設：両袖単室横穴式石室</b><br></div><div><b>発掘調査：有（1979年）</b><br></div><div><b>詳細は以下のリンク調査報告書を参照。</b><br></div><div><b>吉武塚原古墳群</b><br></div><div><a href="https://sitereports.nabunken.go.jp/ja/search/item/16973?all=%E5%90%89%E6%AD%A6%E5%A1%9A%E5%8E%9F%E5%8F%A4%E5%A2%B3%E7%BE%A4"><b>https://sitereports.nabunken.go.jp/ja/search/item/16973?all=%E5%90%89%E6%AD%A6%E5%A1%9A%E5%8E%9F%E5%8F%A4%E5%A2%B3%E7%BE%A4</b></a><br></div>]]></description>
-		<styleUrl>#__managed_style_0E56E6DA6E303FBA8CA0</styleUrl>
+		<styleUrl>#__managed_style_08A9C2A41530445BDD9D</styleUrl>
 		<Polygon>
 			<outerBoundaryIs>
 				<LinearRing>
@@ -2247,8 +2259,8 @@
 	</Placemark>
 	<Placemark id="054581FD6F303FBF1CE5">
 		<name>金武古墳群吉武G群2号墳</name>
-		<description><![CDATA[<div><b>墳形：円墳</b><br></div><div><b>墳丘：主軸径13.0ｍ、主軸直交径9.8ｍ</b><br></div><div><b>埋葬施設：両袖複室横穴式石室</b><br></div><div><b>発掘調査：有（1995年）</b><br></div><div><b>詳細は以下リンクの調査報告書を参照。</b><br></div><div><b>金武古墳群吉武G群の調査</b><br></div><div><a href="https://sitereports.nabunken.go.jp/ja/search/p/2?all=%E7%BE%BD%E6%A0%B9%E6%88%B8%E5%8F%A4%E5%A2%B3%E7%BE%A4"><b>https://sitereports.nabunken.go.jp/ja/search/p/2?all=%E7%BE%BD%E6%A0%B9%E6%88%B8%E5%8F%A4%E5%A2%B3%E7%BE%A4</b></a><br></div>]]></description>
-		<styleUrl>#__managed_style_0E56E6DA6E303FBA8CA0</styleUrl>
+		<description><![CDATA[<div><b>墳形：円墳</b><br></div><div><b>墳丘：主軸径13.0ｍ、主軸直交径9.8ｍ</b><br></div><div><b>埋葬施設：両袖複室横穴式石室</b><br></div><div><b>発掘調査：有（1995年）</b><br></div><div><b>詳細は以下リンクの調査報告書を参照。</b><br></div><div><b>金武古墳群吉武G群の調査</b><br></div><div><a href="https://sitereports.nabunken.go.jp/ja/search/p/2/item/19704?all=%E7%BE%BD%E6%A0%B9%E6%88%B8%E5%8F%A4%E5%A2%B3%E7%BE%A4"><b>https://sitereports.nabunken.go.jp/ja/search/p/2/item/19704?all=%E7%BE%BD%E6%A0%B9%E6%88%B8%E5%8F%A4%E5%A2%B3%E7%BE%A4</b></a><br></div>]]></description>
+		<styleUrl>#__managed_style_08A9C2A41530445BDD9D</styleUrl>
 		<Polygon>
 			<outerBoundaryIs>
 				<LinearRing>
@@ -2261,8 +2273,8 @@
 	</Placemark>
 	<Placemark id="073CFFDBE3303FBE7070">
 		<name>金武古墳群吉武G群1号墳</name>
-		<description><![CDATA[<div><b>墳形：円墳</b><br></div><div><b>墳丘：主軸径10.0ｍ、主軸直交径9.3ｍ</b><br></div><div><b>埋葬施設：両袖単室横穴式石室</b><br></div><div><b>発掘調査：有（1995年）</b><br></div><div><b>詳細は以下リンクの調査報告書を参照。</b><br></div><div><b>金武古墳群吉武G群の調査</b><br></div><div><a href="https://sitereports.nabunken.go.jp/ja/search/p/2?all=%E7%BE%BD%E6%A0%B9%E6%88%B8%E5%8F%A4%E5%A2%B3%E7%BE%A4"><b>https://sitereports.nabunken.go.jp/ja/search/p/2?all=%E7%BE%BD%E6%A0%B9%E6%88%B8%E5%8F%A4%E5%A2%B3%E7%BE%A4</b></a><br></div>]]></description>
-		<styleUrl>#__managed_style_0E56E6DA6E303FBA8CA0</styleUrl>
+		<description><![CDATA[<div><b>墳形：円墳</b><br></div><div><b>墳丘：主軸径10.0ｍ、主軸直交径9.3ｍ</b><br></div><div><b>埋葬施設：両袖単室横穴式石室</b><br></div><div><b>発掘調査：有（1995年）</b><br></div><div><b>詳細は以下リンクの調査報告書を参照。</b><br></div><div><b>金武古墳群吉武G群の調査</b><br></div><div><a href="https://sitereports.nabunken.go.jp/ja/search/p/2/item/19704?all=%E7%BE%BD%E6%A0%B9%E6%88%B8%E5%8F%A4%E5%A2%B3%E7%BE%A4"><b>https://sitereports.nabunken.go.jp/ja/search/p/2/item/19704?all=%E7%BE%BD%E6%A0%B9%E6%88%B8%E5%8F%A4%E5%A2%B3%E7%BE%A4</b></a><br></div>]]></description>
+		<styleUrl>#__managed_style_08A9C2A41530445BDD9D</styleUrl>
 		<Polygon>
 			<outerBoundaryIs>
 				<LinearRing>
@@ -2275,7 +2287,8 @@
 	</Placemark>
 	<Placemark id="0C6891E4A5303FFA292A">
 		<name>金武古墳群吉武G群4号墳</name>
-		<styleUrl>#PolyStyle3</styleUrl>
+		<description><![CDATA[<div><b>墳形：不明</b><br></div><div><b>墳丘：不明</b><br></div><div><b>埋葬施設：両袖単室横穴式石室</b><br></div><div><b>発掘調査：有（1995年）</b><br></div><div><b>詳細は以下リンクの調査報告書を参照。</b><br></div><div><b>金武古墳群吉武G群の調査</b><br></div><div><a href="https://sitereports.nabunken.go.jp/ja/search/p/2/item/19704?all=%E7%BE%BD%E6%A0%B9%E6%88%B8%E5%8F%A4%E5%A2%B3%E7%BE%A4"><b>https://sitereports.nabunken.go.jp/ja/search/p/2/item/19704?all=%E7%BE%BD%E6%A0%B9%E6%88%B8%E5%8F%A4%E5%A2%B3%E7%BE%A4</b></a><br></div>]]></description>
+		<styleUrl>#__managed_style_08A9C2A41530445BDD9D</styleUrl>
 		<Polygon>
 			<outerBoundaryIs>
 				<LinearRing>
@@ -2288,8 +2301,8 @@
 	</Placemark>
 	<Placemark id="073189F321303FC018BC">
 		<name>金武古墳群吉武G群3号墳</name>
-		<description><![CDATA[<div><b>墳形：不明</b><br></div><div><b>墳丘：不明</b><br></div><div><b>埋葬施設：両袖単室横穴式石室</b><br></div><div><b>発掘調査：有（1995年）</b><br></div><div><b>詳細は以下リンクの調査報告書を参照。</b><br></div><div><b>金武古墳群吉武G群の調査</b><br></div><div><a href="https://sitereports.nabunken.go.jp/ja/search/p/2?all=%E7%BE%BD%E6%A0%B9%E6%88%B8%E5%8F%A4%E5%A2%B3%E7%BE%A4"><b>https://sitereports.nabunken.go.jp/ja/search/p/2?all=%E7%BE%BD%E6%A0%B9%E6%88%B8%E5%8F%A4%E5%A2%B3%E7%BE%A4</b></a><br></div>]]></description>
-		<styleUrl>#__managed_style_0E56E6DA6E303FBA8CA0</styleUrl>
+		<description><![CDATA[<div><b>墳形：不明</b><br></div><div><b>墳丘：不明</b><br></div><div><b>埋葬施設：両袖単室横穴式石室</b><br></div><div><b>発掘調査：有（1995年）</b><br></div><div><b>詳細は以下リンクの調査報告書を参照。</b><br></div><div><b>金武古墳群吉武G群の調査</b><br></div><div><a href="https://sitereports.nabunken.go.jp/ja/search/p/2/item/19704?all=%E7%BE%BD%E6%A0%B9%E6%88%B8%E5%8F%A4%E5%A2%B3%E7%BE%A4"><b>https://sitereports.nabunken.go.jp/ja/search/p/2/item/19704?all=%E7%BE%BD%E6%A0%B9%E6%88%B8%E5%8F%A4%E5%A2%B3%E7%BE%A4</b></a><br></div>]]></description>
+		<styleUrl>#__managed_style_08A9C2A41530445BDD9D</styleUrl>
 		<Polygon>
 			<outerBoundaryIs>
 				<LinearRing>
@@ -2312,7 +2325,7 @@
 			<range>1340.689507465577</range>
 			<altitudeMode>absolute</altitudeMode>
 		</LookAt>
-		<styleUrl>#__managed_style_076EAD4DBE303FAAB69C</styleUrl>
+		<styleUrl>#__managed_style_0D8F7AFD3F30445BDDA4</styleUrl>
 		<Point>
 			<coordinates>130.3072744974378,33.52277654385604,104.6635880894198</coordinates>
 		</Point>
@@ -2329,7 +2342,7 @@
 			<range>1375.299782195943</range>
 			<altitudeMode>absolute</altitudeMode>
 		</LookAt>
-		<styleUrl>#__managed_style_076EAD4DBE303FAAB69C</styleUrl>
+		<styleUrl>#__managed_style_0D8F7AFD3F30445BDDA4</styleUrl>
 		<Point>
 			<coordinates>130.3039540619581,33.52426135629135,109.19568696715</coordinates>
 		</Point>
@@ -2346,7 +2359,7 @@
 			<range>1375.299782195944</range>
 			<altitudeMode>absolute</altitudeMode>
 		</LookAt>
-		<styleUrl>#__managed_style_076EAD4DBE303FAAB69C</styleUrl>
+		<styleUrl>#__managed_style_0D8F7AFD3F30445BDDA4</styleUrl>
 		<Point>
 			<coordinates>130.3001198163289,33.52330705559106,166.3049238640598</coordinates>
 		</Point>
@@ -2363,7 +2376,7 @@
 			<range>1375.299782195943</range>
 			<altitudeMode>absolute</altitudeMode>
 		</LookAt>
-		<styleUrl>#__managed_style_076EAD4DBE303FAAB69C</styleUrl>
+		<styleUrl>#__managed_style_0D8F7AFD3F30445BDDA4</styleUrl>
 		<Point>
 			<coordinates>130.3024593185041,33.52450728151207,118.4160640969419</coordinates>
 		</Point>
@@ -2380,7 +2393,7 @@
 			<range>1375.299782195943</range>
 			<altitudeMode>absolute</altitudeMode>
 		</LookAt>
-		<styleUrl>#__managed_style_076EAD4DBE303FAAB69C</styleUrl>
+		<styleUrl>#__managed_style_0D8F7AFD3F30445BDDA4</styleUrl>
 		<Point>
 			<coordinates>130.3016039268743,33.52486611072499,128.018729857689</coordinates>
 		</Point>
@@ -2397,7 +2410,7 @@
 			<range>1391.088548300613</range>
 			<altitudeMode>absolute</altitudeMode>
 		</LookAt>
-		<styleUrl>#__managed_style_076EAD4DBE303FAAB69C</styleUrl>
+		<styleUrl>#__managed_style_0D8F7AFD3F30445BDDA4</styleUrl>
 		<Point>
 			<coordinates>130.2998801661143,33.52555243867194,129.1381024584767</coordinates>
 		</Point>
@@ -2414,7 +2427,7 @@
 			<range>1391.088548300613</range>
 			<altitudeMode>absolute</altitudeMode>
 		</LookAt>
-		<styleUrl>#__managed_style_076EAD4DBE303FAAB69C</styleUrl>
+		<styleUrl>#__managed_style_0D8F7AFD3F30445BDDA4</styleUrl>
 		<Point>
 			<coordinates>130.3014485479677,33.52665887051442,119.6962084783688</coordinates>
 		</Point>
@@ -2431,9 +2444,9 @@
 			<range>1391.088455590216</range>
 			<altitudeMode>absolute</altitudeMode>
 		</LookAt>
-		<styleUrl>#__managed_style_076EAD4DBE303FAAB69C</styleUrl>
+		<styleUrl>#__managed_style_0D8F7AFD3F30445BDDA4</styleUrl>
 		<Point>
-			<coordinates>130.3034173940711,33.52534024544355,112.1851280564261</coordinates>
+			<coordinates>130.3021397960882,33.52553619306468,112.1851280564261</coordinates>
 		</Point>
 	</Placemark>
 	<Placemark id="04AEBF36D6303FAEE74E">
@@ -2448,7 +2461,7 @@
 			<range>1391.088548300613</range>
 			<altitudeMode>absolute</altitudeMode>
 		</LookAt>
-		<styleUrl>#__managed_style_076EAD4DBE303FAAB69C</styleUrl>
+		<styleUrl>#__managed_style_0D8F7AFD3F30445BDDA4</styleUrl>
 		<Point>
 			<coordinates>130.303206304468,33.52684344799848,97.92015012185007</coordinates>
 		</Point>
@@ -2465,7 +2478,7 @@
 			<range>1391.088548300613</range>
 			<altitudeMode>absolute</altitudeMode>
 		</LookAt>
-		<styleUrl>#__managed_style_076EAD4DBE303FAAB69C</styleUrl>
+		<styleUrl>#__managed_style_0D8F7AFD3F30445BDDA4</styleUrl>
 		<Point>
 			<coordinates>130.3040680846379,33.52626067488799,84.97303633672202</coordinates>
 		</Point>
@@ -2482,7 +2495,7 @@
 			<range>1402.268402417394</range>
 			<altitudeMode>absolute</altitudeMode>
 		</LookAt>
-		<styleUrl>#__managed_style_076EAD4DBE303FAAB69C</styleUrl>
+		<styleUrl>#__managed_style_0D8F7AFD3F30445BDDA4</styleUrl>
 		<Point>
 			<coordinates>130.3060079239051,33.52672557958129,76.06558575088934</coordinates>
 		</Point>
@@ -2499,7 +2512,7 @@
 			<range>1402.268402417394</range>
 			<altitudeMode>absolute</altitudeMode>
 		</LookAt>
-		<styleUrl>#__managed_style_076EAD4DBE303FAAB69C</styleUrl>
+		<styleUrl>#__managed_style_0D8F7AFD3F30445BDDA4</styleUrl>
 		<Point>
 			<coordinates>130.3049492749989,33.52689906966001,80.19021689770496</coordinates>
 		</Point>
@@ -2516,7 +2529,7 @@
 			<range>1402.268402417394</range>
 			<altitudeMode>absolute</altitudeMode>
 		</LookAt>
-		<styleUrl>#__managed_style_076EAD4DBE303FAAB69C</styleUrl>
+		<styleUrl>#__managed_style_0D8F7AFD3F30445BDDA4</styleUrl>
 		<Point>
 			<coordinates>130.304755284348,33.5276564051015,85.01734267747119</coordinates>
 		</Point>
@@ -2533,7 +2546,7 @@
 			<range>1413.933410043974</range>
 			<altitudeMode>absolute</altitudeMode>
 		</LookAt>
-		<styleUrl>#__managed_style_076EAD4DBE303FAAB69C</styleUrl>
+		<styleUrl>#__managed_style_0D8F7AFD3F30445BDDA4</styleUrl>
 		<Point>
 			<coordinates>130.306357071656,33.52817509223852,75.47440543851309</coordinates>
 		</Point>
@@ -2550,7 +2563,7 @@
 			<range>1413.933502754371</range>
 			<altitudeMode>absolute</altitudeMode>
 		</LookAt>
-		<styleUrl>#__managed_style_076EAD4DBE303FAAB69C</styleUrl>
+		<styleUrl>#__managed_style_0D8F7AFD3F30445BDDA4</styleUrl>
 		<Point>
 			<coordinates>130.3082320826064,33.52560124544314,75.4054095293486</coordinates>
 		</Point>
@@ -2567,7 +2580,7 @@
 			<range>1413.933502754371</range>
 			<altitudeMode>absolute</altitudeMode>
 		</LookAt>
-		<styleUrl>#__managed_style_076EAD4DBE303FAAB69C</styleUrl>
+		<styleUrl>#__managed_style_0D8F7AFD3F30445BDDA4</styleUrl>
 		<Point>
 			<coordinates>130.3097115626911,33.52581528973495,65.28546532663745</coordinates>
 		</Point>
@@ -2584,7 +2597,7 @@
 			<range>1407.087859717867</range>
 			<altitudeMode>absolute</altitudeMode>
 		</LookAt>
-		<styleUrl>#__managed_style_076EAD4DBE303FAAB69C</styleUrl>
+		<styleUrl>#__managed_style_0D8F7AFD3F30445BDDA4</styleUrl>
 		<Point>
 			<coordinates>130.3038394626099,33.52899244943134,110.7112513136638</coordinates>
 		</Point>
@@ -2601,7 +2614,7 @@
 			<range>1407.087859717867</range>
 			<altitudeMode>absolute</altitudeMode>
 		</LookAt>
-		<styleUrl>#__managed_style_076EAD4DBE303FAAB69C</styleUrl>
+		<styleUrl>#__managed_style_0D8F7AFD3F30445BDDA4</styleUrl>
 		<Point>
 			<coordinates>130.3040629137742,33.52991704668053,100.6297502089974</coordinates>
 		</Point>
@@ -2618,7 +2631,7 @@
 			<range>1407.087859717867</range>
 			<altitudeMode>absolute</altitudeMode>
 		</LookAt>
-		<styleUrl>#__managed_style_076EAD4DBE303FAAB69C</styleUrl>
+		<styleUrl>#__managed_style_0D8F7AFD3F30445BDDA4</styleUrl>
 		<Point>
 			<coordinates>130.3056720523057,33.52974282868983,72.97345896012193</coordinates>
 		</Point>
@@ -2635,7 +2648,7 @@
 			<range>1415.553060687234</range>
 			<altitudeMode>absolute</altitudeMode>
 		</LookAt>
-		<styleUrl>#__managed_style_076EAD4DBE303FAAB69C</styleUrl>
+		<styleUrl>#__managed_style_0D8F7AFD3F30445BDDA4</styleUrl>
 		<Point>
 			<coordinates>130.3103714771003,33.52984704331476,54.40918026869407</coordinates>
 		</Point>
@@ -2652,7 +2665,7 @@
 			<range>1407.341237234068</range>
 			<altitudeMode>absolute</altitudeMode>
 		</LookAt>
-		<styleUrl>#__managed_style_076EAD4DBE303FAAB69C</styleUrl>
+		<styleUrl>#__managed_style_0D8F7AFD3F30445BDDA4</styleUrl>
 		<Point>
 			<coordinates>130.3092104262872,33.5305261876693,52.74163570790393</coordinates>
 		</Point>
@@ -2669,7 +2682,7 @@
 			<range>1396.230545073777</range>
 			<altitudeMode>absolute</altitudeMode>
 		</LookAt>
-		<styleUrl>#__managed_style_076EAD4DBE303FAAB69C</styleUrl>
+		<styleUrl>#__managed_style_0D8F7AFD3F30445BDDA4</styleUrl>
 		<Point>
 			<coordinates>130.3056538186429,33.53118348240637,95.33769215617957</coordinates>
 		</Point>
@@ -2686,7 +2699,7 @@
 			<range>1396.230545073777</range>
 			<altitudeMode>absolute</altitudeMode>
 		</LookAt>
-		<styleUrl>#__managed_style_076EAD4DBE303FAAB69C</styleUrl>
+		<styleUrl>#__managed_style_0D8F7AFD3F30445BDDA4</styleUrl>
 		<Point>
 			<coordinates>130.3069754801388,33.53205342696939,80.44021840173657</coordinates>
 		</Point>
@@ -2703,7 +2716,7 @@
 			<range>1396.230545073777</range>
 			<altitudeMode>absolute</altitudeMode>
 		</LookAt>
-		<styleUrl>#__managed_style_076EAD4DBE303FAAB69C</styleUrl>
+		<styleUrl>#__managed_style_0D8F7AFD3F30445BDDA4</styleUrl>
 		<Point>
 			<coordinates>130.3078897235498,33.53285377060159,67.69662867099704</coordinates>
 		</Point>
@@ -2720,7 +2733,7 @@
 			<range>1396.230545073777</range>
 			<altitudeMode>absolute</altitudeMode>
 		</LookAt>
-		<styleUrl>#__managed_style_076EAD4DBE303FAAB69C</styleUrl>
+		<styleUrl>#__managed_style_0D8F7AFD3F30445BDDA4</styleUrl>
 		<Point>
 			<coordinates>130.3086712628559,33.53131486278441,51.11241661868411</coordinates>
 		</Point>
