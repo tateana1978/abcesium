@@ -28,6 +28,9 @@
   <body>
     <div id="cesiumContainer"></div>
     <script>
+      // ここにアクセストークンを設定します
+      Cesium.Ion.defaultAccessToken = 'aburayama';
+
       const viewer = new Cesium.Viewer("cesiumContainer",{
 		  baseLayerPicker: true,
 		  timeline : false,
