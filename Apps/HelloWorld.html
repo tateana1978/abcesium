@@ -35,9 +35,7 @@
         geocoder: false,
         sceneModePicker: false,
         navigationHelpButton: false,
-        imageryProvider: new Cesium.ArcGisMapServerImageryProvider({
-            url: 'https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer'
-        })
+        imageryProvider: Cesium.createWorldImagery() // デフォルトのワールドイメージリーを使用
     });
 
     var point = viewer.entities.add({
