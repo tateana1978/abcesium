@@ -39,19 +39,16 @@
 		 navigationHelpButton:false
    });
 
-   // Cesium.ArcGisImageryProviderを使用してベースマップを設定
-   const imageLayer = viewer.imageryLayers.add(Cesium.ImageryLayer.fromImageryProvider(new Cesium.ArcGisMapServerImageryProvider({
-      url: 'https://services.arcgis.com/ArcGIS/rest/services/World_Imagery/MapServer',
-      tilingScheme: new Cesium.GeographicTilingScheme({
-        minimumLevel: 0,
-        maximumLevel: 19,
-        rectangle: Cesium.Rectangle.fromDegrees(-180, -90, 180, 90)
-      }),
-      token: 'ArcGIS アクセストークン'
-   })));
+      var point = viewer.entities.add({
+      name:"福岡市城南区七隈", //レイヤ名
+      description:"ここは福岡市城南区七隈です。",　//レイヤの説明
+        position : Cesium.Cartesian3.fromDegrees(130.360489,33.529425,900.0), //経度,緯度,高さ
+        point : {
+            pixelSize : 10, //ポイントのサイズ
+            color : Cesium.Color.BLUE //ポイントの色
+        }
+    });
 
-   // クレジットを表示
-   imageLayer.credit = 'ArcGIS: <a href="https://www.arcgis.com/">https://www.arcgis.com/</a>';
 
    // マーカーを削除する関数
    function removeMarker(name) {
