@@ -1,71 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Use correct character set. -->
-    <meta charset="utf-8" />
-    <!-- Tell IE to use the latest, best version. -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <!-- Make the application on mobile take up the full browser screen and disable user scaling. -->
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"
-    />
-    <title>Hello World!</title>
-    <script src="../Build/CesiumUnminified/Cesium.js"></script>
-    <style>
-      @import url(../Build/CesiumUnminified/Widgets/widgets.css);
-      html,
-      body,
-      #cesiumContainer {
-        width: 100%;
-        height: 100%;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-      }
-    </style>
-  </head>
-  <body>
-    <div id="cesiumContainer"></div>
-    <script>
-      // ここにアクセストークンを設定します
-      Cesium.Ion.defaultAccessToken = 'aburayama';
+ <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+   name="viewport"
+   content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"
+  />
+  <title>Hello World!</title>
+  <script src="https://cesium.com/downloads/cesiumjs/releases/1.93/Build/Cesium/Cesium.js"></script>
+  <style>
+   @import url(https://cesium.com/downloads/cesiumjs/releases/1.93/Build/Cesium/Widgets/widgets.css);
+   html,
+   body,
+   #cesiumContainer {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   }
+  </style>
+ </head>
+ <body>
+  <div id="cesiumContainer"></div>
+  <script>
+   // ここにアクセストークンを設定します
+   Cesium.Ion.defaultAccessToken = 'aburayama'; // 新しいアクセストークンを設定
 
-      const viewer = new Cesium.Viewer("cesiumContainer",{
-		  baseLayerPicker: true,
-		  timeline : false,
-		  animation : false,
-		  homeButton: false,
-		  vrButton: true,
-		  geocoder:false,
-		  sceneModePicker:false,
-		  navigationHelpButton:false
-      });
-      
-      var point = viewer.entities.add({
-      name:"福岡市城南区七隈", //レイヤ名
-      description:"ここは福岡市城南区七隈です。",　//レイヤの説明
-        position : Cesium.Cartesian3.fromDegrees(130.360489,33.529425,900.0), //経度,緯度,高さ
-        point : {
-            pixelSize : 10, //ポイントのサイズ
-            color : Cesium.Color.BLUE //ポイントの色
-        }
+   const viewer = new Cesium.Viewer("cesiumContainer",{
+		 baseLayerPicker: true,
+		 timeline : false,
+		 animation : false,
+		 homeButton: false,
+		 vrButton: true,
+		 geocoder:false,
+		 sceneModePicker:false,
+		 navigationHelpButton:false
+   });
 
-    });
+   // Cesium.ArcGisImageryProviderを使用してベースマップを設定
+   const imageLayer = viewer.imageryLayers.add(Cesium.ImageryLayer.fromImageryProvider(new Cesium.ArcGisMapServerImageryProvider({
+      url: 'https://services.arcgis.com/ArcGIS/rest/services/World_Imagery/MapServer',
+      tilingScheme: new Cesium.GeographicTilingScheme({
+        minimumLevel: 0,
+        maximumLevel: 19,
+        rectangle: Cesium.Rectangle.fromDegrees(-180, -90, 180, 90)
+      }),
+      token: 'ArcGIS アクセストークン'
+   })));
 
-    // マーカーを削除する関数
-    function removeMarker(name) {
-        var entities = viewer.entities.values;
-        for (var i = 0; i < entities.length; i++) {
-            var entity = entities[i];
-            if (entity.name === name) {
-                viewer.entities.remove(entity);
-                break;
-            }
-        }
-    }
+   // クレジットを表示
+   imageLayer.credit = 'ArcGIS: <a href="https://www.arcgis.com/">https://www.arcgis.com/</a>';
 
-	// KMLファイルのリスト
+   // マーカーを削除する関数
+   function removeMarker(name) {
+    var entities = viewer.entities.values;
+    for (var i = 0; i < entities.length; i++) {
+      var entity = entities[i];
+      if (entity.name === name) {
+        viewer.entities.remove(entity);
+        break;
+      }
+    }
+  }
+
+   // KMLファイルのリスト
 	var kmlFiles = ["./kml/クエゾノ古墳群.kml", "./kml/タカバン塚古墳.kml", "./kml/羽根戸古墳群.kml", "./kml/羽根戸南古墳群.kml"
 			, "./kml/羽根戸南古墳群前方後円墳.kml", "./kml/卯内尺古墳群.kml", "./kml/影塚古墳群.kml", "./kml/干隈古墳群.kml"
 			, "./kml/京ノ隈古墳.kml", "./kml/金武古墳群.kml", "./kml/広石古墳群.kml", "./kml/広石古墳群周辺.kml", "./kml/黒塚古墳群.kml"
@@ -80,13 +80,16 @@
 			, "./kml/野芥・野芥大藪・飯倉H・クエゾノ遺跡群.kml", "./kml/野方古墳群.kml", "./kml/野方古墳群周辺.kml"
 			, "./kml/老松神社古墳群.kml", "./kml/柏原遺跡群A-Ｍ遺跡.kml", "./kml/草場古墳群・長垂山古墳群.kml", "./kml/油坂古墳群.kml"];
 
-	// 各KMLファイルを読み込む
-	kmlFiles.forEach(function(kmlFile) {
-   	 viewer.dataSources.add(Cesium.KmlDataSource.load(kmlFile));
-	});
 
-	viewer.zoomTo(viewer.entities);　//レイヤにズーム
-     
-    </script>
-  </body>
+
+// 各KMLファイルを読み込む
+kmlFiles.forEach(function(kmlFile) {
+  viewer.dataSources.add(Cesium.KmlDataSource.load(kmlFile));
+});
+
+// 初期表示を古墳分布全体にズーム
+viewer.zoomTo(viewer.entities);
+
+</script>
+</body>
 </html>
