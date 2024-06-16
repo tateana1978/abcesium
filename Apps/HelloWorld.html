@@ -1,16 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Use correct character set. -->
     <meta charset="utf-8" />
-    <!-- Tell IE to use the latest, best version. -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <!-- Make the application on mobile take up the full browser screen and disable user scaling. -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
     <title>Hello World!</title>
-    <script src="../Build/CesiumUnminified/Cesium.js"></script>
+    <!-- Cesium.jsの安定バージョン1.104.0をCDNから読み込み -->
+    <script src="https://cdn.jsdelivr.net/npm/cesium@1.104.0/Build/Cesium/Cesium.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/cesium@1.104.0/Build/Cesium/Widgets/widgets.css" rel="stylesheet">
     <style>
-        @import url(../Build/CesiumUnminified/Widgets/widgets.css);
         html, body, #cesiumContainer {
             width: 100%;
             height: 100%;
@@ -23,9 +21,10 @@
 <body>
 <div id="cesiumContainer"></div>
 <script>
-    // ここにアクセストークンを設定します
+    // 正しいアクセストークンを設定
     Cesium.Ion.defaultAccessToken = 'aburayama';
 
+    // Cesium Viewerの初期化
     const viewer = new Cesium.Viewer('cesiumContainer', {
         baseLayerPicker: false, // baseLayerPickerを無効にします
         timeline: false,
@@ -38,13 +37,14 @@
         imageryProvider: Cesium.createWorldImagery() // デフォルトのワールドイメージリーを使用
     });
 
+    // 位置を設定してポイントを追加
     var point = viewer.entities.add({
-        name: "福岡市城南区七隈", //レイヤ名
-        description: "ここは福岡市城南区七隈です。", //レイヤの説明
-        position: Cesium.Cartesian3.fromDegrees(130.360489, 33.529425, 900.0), //経度,緯度,高さ
+        name: "福岡市城南区七隈", // レイヤ名
+        description: "ここは福岡市城南区七隈です。", // レイヤの説明
+        position: Cesium.Cartesian3.fromDegrees(130.360489, 33.529425, 900.0), // 経度, 緯度, 高さ
         point: {
-            pixelSize: 10, //ポイントのサイズ
-            color: Cesium.Color.BLUE //ポイントの色
+            pixelSize: 10, // ポイントのサイズ
+            color: Cesium.Color.BLUE // ポイントの色
         }
     });
 
@@ -83,7 +83,6 @@
     });
 
     viewer.zoomTo(viewer.entities); //レイヤにズーム
-
 </script>
 </body>
 </html>
