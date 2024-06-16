@@ -39,16 +39,6 @@
         })
     });
 
-    // 地形のエキスジャレーション（標高の比率）を2倍に設定
-    viewer.scene.globe.maximumScreenSpaceError = 2; // 標高データの精度を向上させる
-    viewer.scene.globe.depthTestAgainstTerrain = true;
-    var terrainProvider = new Cesium.CesiumTerrainProvider({
-        url: Cesium.IonResource.fromAssetId(1), // Cesium World TerrainのAsset ID
-        requestVertexNormals: true
-    });
-    viewer.terrainProvider = terrainProvider;
-    viewer.scene.globe.exaggeration = 2.0; // この行を追加 - 標高の比率を2倍に設定
-
     // 位置を設定してポイントを追加
     var point = viewer.entities.add({
         name: "福岡市城南区七隈", // レイヤ名
