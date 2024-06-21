@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -38,6 +38,9 @@
             url: 'https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer'
         })
     });
+
+    // 3D地形の高さの倍率を2倍に設定
+    viewer.scene.globe.terrainExaggeration = 2.0;
 
     // 位置を設定してポイントを追加
     var point = viewer.entities.add({
