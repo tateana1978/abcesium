@@ -37,7 +37,7 @@
         terrainProvider: Cesium.createWorldTerrain()
     });
 
-    viewer.scene.globe.terrainExaggeration = 1.0; // Adjusted terrain exaggeration
+    viewer.scene.globe.terrainExaggeration = 50.0; // Adjusted terrain exaggeration
 
     var point = viewer.entities.add({
         name: "福岡市城南区七隈",
@@ -89,10 +89,10 @@
 
                     // Adjust heights if necessary
                     if (Cesium.defined(entity.polygon.height)) {
-                        entity.polygon.height = entity.polygon.height * 50.0; // Adjust as needed
+                        entity.polygon.height = entity.polygon.height * 2.0; // Adjust as needed
                     }
                     if (Cesium.defined(entity.polygon.extrudedHeight)) {
-                        entity.polygon.extrudedHeight = entity.polygon.extrudedHeight * 50.0; // Adjust as needed
+                        entity.polygon.extrudedHeight = entity.polygon.extrudedHeight * 2.0; // Adjust as needed
                     }
                 }
             });
