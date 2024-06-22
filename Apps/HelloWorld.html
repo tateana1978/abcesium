@@ -37,7 +37,7 @@
         terrainProvider: Cesium.createWorldTerrain()
     });
 
-    viewer.scene.globe.terrainExaggeration = 2.0;
+    viewer.scene.globe.terrainExaggeration = 1.0; // Adjusted terrain exaggeration
 
     var point = viewer.entities.add({
         name: "福岡市城南区七隈",
@@ -45,7 +45,8 @@
         position: Cesium.Cartesian3.fromDegrees(130.360489, 33.529425, 900.0),
         point: {
             pixelSize: 10,
-            color: Cesium.Color.BLUE
+            color: Cesium.Color.BLUE,
+            heightReference: Cesium.HeightReference.CLAMP_TO_GROUND
         }
     });
 
