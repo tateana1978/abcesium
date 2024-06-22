@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
     <title>Hello World!</title>
+    <!-- Cesium.jsの安定バージョンをCDNから読み込み -->
     <script src="https://cdn.jsdelivr.net/npm/cesium@1.104.0/Build/Cesium/Cesium.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/cesium@1.104.0/Build/Cesium/Widgets/widgets.css" rel="stylesheet">
     <style>
@@ -20,10 +21,12 @@
 <body>
 <div id="cesiumContainer"></div>
 <script>
-    Cesium.Ion.defaultAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJhNGVlMzI1MS1mNTVmLTQxNjktYWE3ZS03MDE3YzliOTM3ZDgiLCJpZCI6MjIxMzcyLCJpYXQiOjE3MTgwNzE4MjR9.M-8Kl4Es2ILgYNm59GjbbUPYwntYBx2RoWJ5eXX-Prg';
+    // 正しいアクセストークンを設定
+    Cesium.Ion.defaultAccessToken = 'YOUR_CESIUM_ION_ACCESS_TOKEN';
 
+    // Cesium Viewerの初期化
     const viewer = new Cesium.Viewer('cesiumContainer', {
-        baseLayerPicker: false,
+        baseLayerPicker: false, // baseLayerPickerを無効にします
         timeline: false,
         animation: false,
         homeButton: false,
@@ -33,23 +36,24 @@
         navigationHelpButton: false,
         imageryProvider: new Cesium.ArcGisMapServerImageryProvider({
             url: 'https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer'
-        }),
-        terrainProvider: Cesium.createWorldTerrain()
+        })
     });
 
-    viewer.scene.globe.terrainExaggeration = 1.0;
+    // 3D地形の高さの倍率を2倍に設定
+    viewer.scene.globe.terrainExaggeration = 10.0;
 
+    // 位置を設定してポイントを追加
     var point = viewer.entities.add({
-        name: "福岡市城南区七隈",
-        description: "ここは福岡市城南区七隈です。",
-        position: Cesium.Cartesian3.fromDegrees(130.360489, 33.529425, 900.0),
+        name: "福岡市城南区七隈", // レイヤ名
+        description: "ここは福岡市城南区七隈です。", // レイヤの説明
+        position: Cesium.Cartesian3.fromDegrees(130.360489, 33.529425, 900.0), // 経度, 緯度, 高さ
         point: {
-            pixelSize: 10,
-            color: Cesium.Color.BLUE,
-            heightReference: Cesium.HeightReference.CLAMP_TO_GROUND
+            pixelSize: 10, // ポイントのサイズ
+            color: Cesium.Color.BLUE // ポイントの色
         }
     });
 
+    // マーカーを削除する関数
     function removeMarker(name) {
         var entities = viewer.entities.values;
         for (var i = 0; i < entities.length; i++) {
@@ -61,6 +65,7 @@
         }
     }
 
+    // KMLファイルのリスト
     var kmlFiles = [
         "./kml/クエゾノ古墳群.kml", "./kml/タカバン塚古墳.kml", "./kml/羽根戸古墳群.kml", "./kml/羽根戸南古墳群.kml",
         "./kml/羽根戸南古墳群前方後円墳.kml", "./kml/卯内尺古墳群.kml", "./kml/影塚古墳群.kml", "./kml/干隈古墳群.kml",
@@ -77,31 +82,12 @@
         "./kml/老松神社古墳群.kml", "./kml/柏原遺跡群A-Ｍ遺跡.kml", "./kml/草場古墳群・長垂山古墳群.kml", "./kml/油坂古墳群.kml"
     ];
 
+    // 各KMLファイルを読み込む
     kmlFiles.forEach(function (kmlFile) {
-        Cesium.KmlDataSource.load(kmlFile, {
-            clampToGround: true
-        }).then(function (dataSource) {
-            viewer.dataSources.add(dataSource);
-            dataSource.entities.values.forEach(function (entity) {
-                if (Cesium.defined(entity.polygon)) {
-                    entity.polygon.heightReference = Cesium.HeightReference.CLAMP_TO_GROUND;
-
-                    var northOffset = 0.0101; // 北方向へのオフセット値（緯度の差分）
-
-                    // ポリゴンの位置を北にずらす
-                    var positions = entity.polygon.hierarchy.getValue(Cesium.JulianDate.now()).positions;
-                    for (var i = 0; i < positions.length; i++) {
-                        var cartographic = Cesium.Cartographic.fromCartesian(positions[i]);
-                        cartographic.latitude += northOffset;
-                        positions[i] = Cesium.Cartesian3.fromRadians(cartographic.longitude, cartographic.latitude, cartographic.height);
-                    }
-                    entity.polygon.hierarchy = new Cesium.PolygonHierarchy(positions);
-                }
-            });
-        });
+        viewer.dataSources.add(Cesium.KmlDataSource.load(kmlFile));
     });
 
-    viewer.zoomTo(viewer.entities);
+    viewer.zoomTo(viewer.entities); // レイヤにズーム
 </script>
 </body>
 </html>
