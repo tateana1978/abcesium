@@ -83,7 +83,16 @@
             viewer.dataSources.add(dataSource);
             dataSource.entities.values.forEach(function (entity) {
                 if (Cesium.defined(entity.polygon)) {
+                    // Adjust the polygon height based on terrain exaggeration
                     entity.polygon.heightReference = Cesium.HeightReference.CLAMP_TO_GROUND;
+
+                    // Adjust heights if necessary
+                    if (Cesium.defined(entity.polygon.height)) {
+                        entity.polygon.height = entity.polygon.height * 2.0; // Adjust as needed
+                    }
+                    if (Cesium.defined(entity.polygon.extrudedHeight)) {
+                        entity.polygon.extrudedHeight = entity.polygon.extrudedHeight * 2.0; // Adjust as needed
+                    }
                 }
             });
         });
