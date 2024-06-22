@@ -37,7 +37,7 @@
         terrainProvider: Cesium.createWorldTerrain()
     });
 
-    viewer.scene.globe.terrainExaggeration = 1.0; // Adjusted terrain exaggeration
+    viewer.scene.globe.terrainExaggeration = 1.0;
 
     var point = viewer.entities.add({
         name: "福岡市城南区七隈",
@@ -84,16 +84,18 @@
             viewer.dataSources.add(dataSource);
             dataSource.entities.values.forEach(function (entity) {
                 if (Cesium.defined(entity.polygon)) {
-                    // Adjust the polygon height based on terrain exaggeration
                     entity.polygon.heightReference = Cesium.HeightReference.CLAMP_TO_GROUND;
 
-                    // Adjust heights if necessary
-                    if (Cesium.defined(entity.polygon.height)) {
-                        entity.polygon.height = entity.polygon.height * 200.0; // Adjust as needed
+                    var northOffset = 0.0010; // 北方向へのオフセット値（緯度の差分）
+
+                    // ポリゴンの位置を北にずらす
+                    var positions = entity.polygon.hierarchy.getValue(Cesium.JulianDate.now()).positions;
+                    for (var i = 0; i < positions.length; i++) {
+                        var cartographic = Cesium.Cartographic.fromCartesian(positions[i]);
+                        cartographic.latitude += northOffset;
+                        positions[i] = Cesium.Cartesian3.fromRadians(cartographic.longitude, cartographic.latitude, cartographic.height);
                     }
-                    if (Cesium.defined(entity.polygon.extrudedHeight)) {
-                        entity.polygon.extrudedHeight = entity.polygon.extrudedHeight * 200.0; // Adjust as needed
-                    }
+                    entity.polygon.hierarchy = new Cesium.PolygonHierarchy(positions);
                 }
             });
         });
