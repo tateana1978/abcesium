@@ -86,7 +86,7 @@
                 if (Cesium.defined(entity.polygon)) {
                     entity.polygon.heightReference = Cesium.HeightReference.CLAMP_TO_GROUND;
 
-                    var northOffset = 0.0010; // 北方向へのオフセット値（緯度の差分）
+                    var northOffset = 0.0101; // 北方向へのオフセット値（緯度の差分）
 
                     // ポリゴンの位置を北にずらす
                     var positions = entity.polygon.hierarchy.getValue(Cesium.JulianDate.now()).positions;
