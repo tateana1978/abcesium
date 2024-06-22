@@ -22,7 +22,7 @@
 <div id="cesiumContainer"></div>
 <script>
     // 正しいアクセストークンを設定
-    Cesium.Ion.defaultAccessToken = 'YOUR_CESIUM_ION_ACCESS_TOKEN';
+    Cesium.Ion.defaultAccessToken = 'aburayama';
 
     // Cesium Viewerの初期化
     const viewer = new Cesium.Viewer('cesiumContainer', {
@@ -36,11 +36,12 @@
         navigationHelpButton: false,
         imageryProvider: new Cesium.ArcGisMapServerImageryProvider({
             url: 'https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer'
-        })
+        }),
+        terrainProvider: Cesium.createWorldTerrain() // 地形プロバイダーを追加
     });
 
     // 3D地形の高さの倍率を2倍に設定
-    viewer.scene.globe.terrainExaggeration = 10.0;
+    viewer.scene.globe.terrainExaggeration = 2.0;
 
     // 位置を設定してポイントを追加
     var point = viewer.entities.add({
